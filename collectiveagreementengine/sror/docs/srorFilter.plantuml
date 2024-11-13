@@ -22,3 +22,5 @@ repeat
 repeat while (CompareAcademicYear within 5 AcademicYears from start) is (yes)
 ->no;
 stop
+
+@enduml

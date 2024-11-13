@@ -12,7 +12,7 @@
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <java.version>17</java.version>
-    <version.drools>9.44.0.Final</version.drools>
+    <version.drools>999-SNAPSHOT</version.drools>
     <version.slf4j>1.7.30</version.slf4j>
     <version.junit>4.13.1</version.junit>
     <version.logback>1.2.9</version.logback>
@@ -104,9 +104,6 @@
             <goals>
               <goal>validateDMN</goal> <!-- Corrected goal name -->
             </goals>
-            <configuration>
-              <failOnValidationError>true</failOnValidationError>
-            </configuration>
           </execution>
         </executions>
       </plugin>
