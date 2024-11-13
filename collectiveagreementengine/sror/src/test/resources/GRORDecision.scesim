@@ -30,168 +30,52 @@
           </factIdentifier>
           <className>java.lang.String</className>
           <factAlias>Scenario description</factAlias>
-          <columnWidth>473</columnWidth>
+          <columnWidth>300</columnWidth>
           <factMappingValueType>NOT_EXPRESSION</factMappingValueType>
         </FactMapping>
         <FactMapping>
           <expressionElements>
             <ExpressionElement>
-              <step>Assessment Count</step>
+              <step>Rights Status</step>
+            </ExpressionElement>
+            <ExpressionElement>
+              <step>expired</step>
             </ExpressionElement>
           </expressionElements>
           <expressionIdentifier>
-            <name>1|1</name>
+            <name>1718986192887</name>
             <type>GIVEN</type>
           </expressionIdentifier>
           <factIdentifier>
-            <name>Assessment Count</name>
-            <className>Assessment Count</className>
+            <name>Rights Status</name>
+            <className>Rights Status</className>
           </factIdentifier>
-          <className>number</className>
-          <factAlias>Assessment Count</factAlias>
-          <expressionAlias>value</expressionAlias>
-          <genericTypes/>
+          <className>boolean</className>
+          <factAlias>Rights Status</factAlias>
+          <expressionAlias>expired</expressionAlias>
           <columnWidth>114</columnWidth>
           <factMappingValueType>NOT_EXPRESSION</factMappingValueType>
         </FactMapping>
         <FactMapping>
           <expressionElements>
             <ExpressionElement>
-              <step>Hiring Date</step>
+              <step>Rights Status</step>
+            </ExpressionElement>
+            <ExpressionElement>
+              <step>lost</step>
             </ExpressionElement>
           </expressionElements>
           <expressionIdentifier>
-            <name>1|2</name>
+            <name>1718986310875</name>
             <type>GIVEN</type>
           </expressionIdentifier>
           <factIdentifier>
-            <name>Hiring Date</name>
-            <className>Hiring Date</className>
+            <name>Rights Status</name>
+            <className>Rights Status</className>
           </factIdentifier>
-          <className>date</className>
-          <factAlias>Hiring Date</factAlias>
-          <expressionAlias>value</expressionAlias>
-          <genericTypes/>
-          <columnWidth>114</columnWidth>
-          <factMappingValueType>NOT_EXPRESSION</factMappingValueType>
-        </FactMapping>
-        <FactMapping>
-          <expressionElements>
-            <ExpressionElement>
-              <step>Proposed Course</step>
-            </ExpressionElement>
-            <ExpressionElement>
-              <step>Academic_year_taught</step>
-            </ExpressionElement>
-          </expressionElements>
-          <expressionIdentifier>
-            <name>1|3</name>
-            <type>GIVEN</type>
-          </expressionIdentifier>
-          <factIdentifier>
-            <name>Proposed Course</name>
-            <className>Proposed Course</className>
-          </factIdentifier>
-          <className>string</className>
-          <factAlias>Proposed Course</factAlias>
-          <expressionAlias>Academic_year_taught</expressionAlias>
-          <genericTypes/>
-          <columnWidth>114</columnWidth>
-          <factMappingValueType>NOT_EXPRESSION</factMappingValueType>
-        </FactMapping>
-        <FactMapping>
-          <expressionElements>
-            <ExpressionElement>
-              <step>Proposed Course</step>
-            </ExpressionElement>
-            <ExpressionElement>
-              <step>Course_code</step>
-            </ExpressionElement>
-          </expressionElements>
-          <expressionIdentifier>
-            <name>1|4</name>
-            <type>GIVEN</type>
-          </expressionIdentifier>
-          <factIdentifier>
-            <name>Proposed Course</name>
-            <className>Proposed Course</className>
-          </factIdentifier>
-          <className>string</className>
-          <factAlias>Proposed Course</factAlias>
-          <expressionAlias>Course_code</expressionAlias>
-          <genericTypes/>
-          <columnWidth>114</columnWidth>
-          <factMappingValueType>NOT_EXPRESSION</factMappingValueType>
-        </FactMapping>
-        <FactMapping>
-          <expressionElements>
-            <ExpressionElement>
-              <step>Proposed Course</step>
-            </ExpressionElement>
-            <ExpressionElement>
-              <step>Delivery_format</step>
-            </ExpressionElement>
-          </expressionElements>
-          <expressionIdentifier>
-            <name>1|5</name>
-            <type>GIVEN</type>
-          </expressionIdentifier>
-          <factIdentifier>
-            <name>Proposed Course</name>
-            <className>Proposed Course</className>
-          </factIdentifier>
-          <className>string</className>
-          <factAlias>Proposed Course</factAlias>
-          <expressionAlias>Delivery_format</expressionAlias>
-          <genericTypes/>
-          <columnWidth>114</columnWidth>
-          <factMappingValueType>NOT_EXPRESSION</factMappingValueType>
-        </FactMapping>
-        <FactMapping>
-          <expressionElements>
-            <ExpressionElement>
-              <step>Proposed Course</step>
-            </ExpressionElement>
-            <ExpressionElement>
-              <step>Responsibility_percentage</step>
-            </ExpressionElement>
-          </expressionElements>
-          <expressionIdentifier>
-            <name>1|6</name>
-            <type>GIVEN</type>
-          </expressionIdentifier>
-          <factIdentifier>
-            <name>Proposed Course</name>
-            <className>Proposed Course</className>
-          </factIdentifier>
-          <className>Responsibility_percentage</className>
-          <factAlias>Proposed Course</factAlias>
-          <expressionAlias>Responsibility_percentage</expressionAlias>
-          <genericTypes/>
-          <columnWidth>114</columnWidth>
-          <factMappingValueType>NOT_EXPRESSION</factMappingValueType>
-        </FactMapping>
-        <FactMapping>
-          <expressionElements>
-            <ExpressionElement>
-              <step>Proposed Course</step>
-            </ExpressionElement>
-            <ExpressionElement>
-              <step>Units</step>
-            </ExpressionElement>
-          </expressionElements>
-          <expressionIdentifier>
-            <name>1|7</name>
-            <type>GIVEN</type>
-          </expressionIdentifier>
-          <factIdentifier>
-            <name>Proposed Course</name>
-            <className>Proposed Course</className>
-          </factIdentifier>
-          <className>number</className>
-          <factAlias>Proposed Course</factAlias>
-          <expressionAlias>Units</expressionAlias>
-          <genericTypes/>
+          <className>boolean</className>
+          <factAlias>Rights Status</factAlias>
+          <expressionAlias>lost</expressionAlias>
           <columnWidth>114</columnWidth>
           <factMappingValueType>NOT_EXPRESSION</factMappingValueType>
         </FactMapping>
@@ -205,7 +89,7 @@
             </ExpressionElement>
           </expressionElements>
           <expressionIdentifier>
-            <name>1|8</name>
+            <name>1|14</name>
             <type>GIVEN</type>
           </expressionIdentifier>
           <factIdentifier>
@@ -227,11 +111,11 @@
               <step>Term Adjunct</step>
             </ExpressionElement>
             <ExpressionElement>
-              <step>Employee ID</step>
+              <step>employee_ID</step>
             </ExpressionElement>
           </expressionElements>
           <expressionIdentifier>
-            <name>1|9</name>
+            <name>1|15</name>
             <type>GIVEN</type>
           </expressionIdentifier>
           <factIdentifier>
@@ -240,7 +124,7 @@
           </factIdentifier>
           <className>string</className>
           <factAlias>Term Adjunct</factAlias>
-          <expressionAlias>Employee ID</expressionAlias>
+          <expressionAlias>employee_ID</expressionAlias>
           <genericTypes/>
           <columnWidth>114</columnWidth>
           <factMappingValueType>NOT_EXPRESSION</factMappingValueType>
@@ -251,11 +135,11 @@
               <step>Term Adjunct</step>
             </ExpressionElement>
             <ExpressionElement>
-              <step>Full Name</step>
+              <step>full_Name</step>
             </ExpressionElement>
           </expressionElements>
           <expressionIdentifier>
-            <name>1|10</name>
+            <name>1|16</name>
             <type>GIVEN</type>
           </expressionIdentifier>
           <factIdentifier>
@@ -264,7 +148,7 @@
           </factIdentifier>
           <className>string</className>
           <factAlias>Term Adjunct</factAlias>
-          <expressionAlias>Full Name</expressionAlias>
+          <expressionAlias>full_Name</expressionAlias>
           <genericTypes/>
           <columnWidth>114</columnWidth>
           <factMappingValueType>NOT_EXPRESSION</factMappingValueType>
@@ -272,20 +156,23 @@
         <FactMapping>
           <expressionElements>
             <ExpressionElement>
-              <step>AssessmentResult</step>
+              <step>Term Adjunct</step>
+            </ExpressionElement>
+            <ExpressionElement>
+              <step>sror_Status</step>
             </ExpressionElement>
           </expressionElements>
           <expressionIdentifier>
-            <name>1|11</name>
-            <type>EXPECT</type>
+            <name>1|17</name>
+            <type>GIVEN</type>
           </expressionIdentifier>
           <factIdentifier>
-            <name>AssessmentResult</name>
-            <className>AssessmentResult</className>
+            <name>Term Adjunct</name>
+            <className>Term Adjunct</className>
           </factIdentifier>
           <className>boolean</className>
-          <factAlias>AssessmentResult</factAlias>
-          <expressionAlias>value</expressionAlias>
+          <factAlias>Term Adjunct</factAlias>
+          <expressionAlias>sror_Status</expressionAlias>
           <genericTypes/>
           <columnWidth>114</columnWidth>
           <factMappingValueType>NOT_EXPRESSION</factMappingValueType>
@@ -293,19 +180,93 @@
         <FactMapping>
           <expressionElements>
             <ExpressionElement>
-              <step>Course Count</step>
+              <step>Term Adjunct</step>
+            </ExpressionElement>
+            <ExpressionElement>
+              <step>srors</step>
             </ExpressionElement>
           </expressionElements>
           <expressionIdentifier>
-            <name>1|12</name>
-            <type>EXPECT</type>
+            <name>1|18</name>
+            <type>GIVEN</type>
           </expressionIdentifier>
           <factIdentifier>
-            <name>Course Count</name>
-            <className>Course Count</className>
+            <name>Term Adjunct</name>
+            <className>Term Adjunct</className>
+          </factIdentifier>
+          <className>java.util.List</className>
+          <factAlias>Term Adjunct</factAlias>
+          <expressionAlias>srors</expressionAlias>
+          <genericTypes>
+            <string>tCourses</string>
+          </genericTypes>
+          <columnWidth>114</columnWidth>
+          <factMappingValueType>NOT_EXPRESSION</factMappingValueType>
+        </FactMapping>
+        <FactMapping>
+          <expressionElements>
+            <ExpressionElement>
+              <step>Term Adjunct</step>
+            </ExpressionElement>
+            <ExpressionElement>
+              <step>sufficient_Positive_Evaluations</step>
+            </ExpressionElement>
+          </expressionElements>
+          <expressionIdentifier>
+            <name>1|19</name>
+            <type>GIVEN</type>
+          </expressionIdentifier>
+          <factIdentifier>
+            <name>Term Adjunct</name>
+            <className>Term Adjunct</className>
+          </factIdentifier>
+          <className>boolean</className>
+          <factAlias>Term Adjunct</factAlias>
+          <expressionAlias>sufficient_Positive_Evaluations</expressionAlias>
+          <genericTypes/>
+          <columnWidth>191</columnWidth>
+          <factMappingValueType>NOT_EXPRESSION</factMappingValueType>
+        </FactMapping>
+        <FactMapping>
+          <expressionElements>
+            <ExpressionElement>
+              <step>Term Adjunct</step>
+            </ExpressionElement>
+            <ExpressionElement>
+              <step>years_of_Teaching</step>
+            </ExpressionElement>
+          </expressionElements>
+          <expressionIdentifier>
+            <name>1|20</name>
+            <type>GIVEN</type>
+          </expressionIdentifier>
+          <factIdentifier>
+            <name>Term Adjunct</name>
+            <className>Term Adjunct</className>
           </factIdentifier>
           <className>number</className>
-          <factAlias>Course Count</factAlias>
+          <factAlias>Term Adjunct</factAlias>
+          <expressionAlias>years_of_Teaching</expressionAlias>
+          <genericTypes/>
+          <columnWidth>114</columnWidth>
+          <factMappingValueType>NOT_EXPRESSION</factMappingValueType>
+        </FactMapping>
+        <FactMapping>
+          <expressionElements>
+            <ExpressionElement>
+              <step>FCE taught</step>
+            </ExpressionElement>
+          </expressionElements>
+          <expressionIdentifier>
+            <name>1|21</name>
+            <type>EXPECT</type>
+          </expressionIdentifier>
+          <factIdentifier>
+            <name>FCE taught</name>
+            <className>FCE taught</className>
+          </factIdentifier>
+          <className>number</className>
+          <factAlias>FCE taught</factAlias>
           <expressionAlias>value</expressionAlias>
           <genericTypes/>
           <columnWidth>114</columnWidth>
@@ -314,21 +275,104 @@
         <FactMapping>
           <expressionElements>
             <ExpressionElement>
-              <step>SROR Granted</step>
+              <step>GROR Granted</step>
             </ExpressionElement>
           </expressionElements>
           <expressionIdentifier>
-            <name>1|13</name>
+            <name>1|22</name>
             <type>EXPECT</type>
           </expressionIdentifier>
           <factIdentifier>
-            <name>SROR Granted</name>
-            <className>SROR Granted</className>
+            <name>GROR Granted</name>
+            <className>GROR Granted</className>
           </factIdentifier>
           <className>boolean</className>
-          <factAlias>SROR Granted</factAlias>
+          <factAlias>GROR Granted</factAlias>
           <expressionAlias>value</expressionAlias>
           <genericTypes/>
+          <columnWidth>114</columnWidth>
+          <factMappingValueType>NOT_EXPRESSION</factMappingValueType>
+        </FactMapping>
+        <FactMapping>
+          <expressionElements>
+            <ExpressionElement>
+              <step>SRoR with at least a 0.5 FCE</step>
+            </ExpressionElement>
+          </expressionElements>
+          <expressionIdentifier>
+            <name>1|27</name>
+            <type>EXPECT</type>
+          </expressionIdentifier>
+          <factIdentifier>
+            <name>SRoR with at least a 0.5 FCE</name>
+            <className>SRoR with at least a 0.5 FCE</className>
+          </factIdentifier>
+          <className>boolean</className>
+          <factAlias>SRoR with at least a 0.5 FCE</factAlias>
+          <expressionAlias>value</expressionAlias>
+          <genericTypes/>
+          <columnWidth>259</columnWidth>
+          <factMappingValueType>NOT_EXPRESSION</factMappingValueType>
+        </FactMapping>
+        <FactMapping>
+          <expressionElements>
+            <ExpressionElement>
+              <step>Served 4 Consecutive Years as Term Adjunct</step>
+            </ExpressionElement>
+          </expressionElements>
+          <expressionIdentifier>
+            <name>1|28</name>
+            <type>EXPECT</type>
+          </expressionIdentifier>
+          <factIdentifier>
+            <name>Served 4 Consecutive Years as Term Adjunct</name>
+            <className>Served 4 Consecutive Years as Term Adjunct</className>
+          </factIdentifier>
+          <className>boolean</className>
+          <factAlias>Served 4 Consecutive Years as Term Adjunct</factAlias>
+          <expressionAlias>value</expressionAlias>
+          <genericTypes/>
+          <columnWidth>301</columnWidth>
+          <factMappingValueType>NOT_EXPRESSION</factMappingValueType>
+        </FactMapping>
+        <FactMapping>
+          <expressionElements>
+            <ExpressionElement>
+              <step>Years of Service</step>
+            </ExpressionElement>
+          </expressionElements>
+          <expressionIdentifier>
+            <name>1|29</name>
+            <type>EXPECT</type>
+          </expressionIdentifier>
+          <factIdentifier>
+            <name>Years of Service</name>
+            <className>Years of Service</className>
+          </factIdentifier>
+          <className>number</className>
+          <factAlias>Years of Service</factAlias>
+          <expressionAlias>value</expressionAlias>
+          <genericTypes/>
+          <columnWidth>114</columnWidth>
+          <factMappingValueType>NOT_EXPRESSION</factMappingValueType>
+        </FactMapping>
+        <FactMapping>
+          <expressionElements>
+            <ExpressionElement>
+              <step>Eligibility Date</step>
+            </ExpressionElement>
+          </expressionElements>
+          <expressionIdentifier>
+            <name>1719265368613</name>
+            <type>EXPECT</type>
+          </expressionIdentifier>
+          <factIdentifier>
+            <name>Eligibility Date</name>
+            <className>Eligibility Date</className>
+          </factIdentifier>
+          <className>date</className>
+          <factAlias>Eligibility Date</factAlias>
+          <expressionAlias>value</expressionAlias>
           <columnWidth>114</columnWidth>
           <factMappingValueType>NOT_EXPRESSION</factMappingValueType>
         </FactMapping>
@@ -346,84 +390,7 @@
               <name>Description</name>
               <type>OTHER</type>
             </expressionIdentifier>
-            <rawValue class="string">Basic Test</rawValue>
-          </FactMappingValue>
-          <FactMappingValue>
-            <factIdentifier>
-              <name>Assessment Count</name>
-              <className>Assessment Count</className>
-            </factIdentifier>
-            <expressionIdentifier>
-              <name>1|1</name>
-              <type>GIVEN</type>
-            </expressionIdentifier>
-            <rawValue class="string">3</rawValue>
-          </FactMappingValue>
-          <FactMappingValue>
-            <factIdentifier>
-              <name>Hiring Date</name>
-              <className>Hiring Date</className>
-            </factIdentifier>
-            <expressionIdentifier>
-              <name>1|2</name>
-              <type>GIVEN</type>
-            </expressionIdentifier>
-            <rawValue class="string">date("2023-09-01")</rawValue>
-          </FactMappingValue>
-          <FactMappingValue>
-            <factIdentifier>
-              <name>Proposed Course</name>
-              <className>Proposed Course</className>
-            </factIdentifier>
-            <expressionIdentifier>
-              <name>1|3</name>
-              <type>GIVEN</type>
-            </expressionIdentifier>
-            <rawValue class="string">2023</rawValue>
-          </FactMappingValue>
-          <FactMappingValue>
-            <factIdentifier>
-              <name>Proposed Course</name>
-              <className>Proposed Course</className>
-            </factIdentifier>
-            <expressionIdentifier>
-              <name>1|4</name>
-              <type>GIVEN</type>
-            </expressionIdentifier>
-            <rawValue class="string">"CHEM-103"</rawValue>
-          </FactMappingValue>
-          <FactMappingValue>
-            <factIdentifier>
-              <name>Proposed Course</name>
-              <className>Proposed Course</className>
-            </factIdentifier>
-            <expressionIdentifier>
-              <name>1|5</name>
-              <type>GIVEN</type>
-            </expressionIdentifier>
-            <rawValue class="string">"In Person"</rawValue>
-          </FactMappingValue>
-          <FactMappingValue>
-            <factIdentifier>
-              <name>Proposed Course</name>
-              <className>Proposed Course</className>
-            </factIdentifier>
-            <expressionIdentifier>
-              <name>1|6</name>
-              <type>GIVEN</type>
-            </expressionIdentifier>
-            <rawValue class="string">100</rawValue>
-          </FactMappingValue>
-          <FactMappingValue>
-            <factIdentifier>
-              <name>Proposed Course</name>
-              <className>Proposed Course</className>
-            </factIdentifier>
-            <expressionIdentifier>
-              <name>1|7</name>
-              <type>GIVEN</type>
-            </expressionIdentifier>
-            <rawValue class="string">3</rawValue>
+            <rawValue class="string">New adjunct, no rights</rawValue>
           </FactMappingValue>
           <FactMappingValue>
             <factIdentifier>
@@ -431,10 +398,10 @@
               <className>Term Adjunct</className>
             </factIdentifier>
             <expressionIdentifier>
-              <name>1|8</name>
+              <name>1|14</name>
               <type>GIVEN</type>
             </expressionIdentifier>
-            <rawValue class="string">[{"Course_code":"\"CHEM-103\"", "Academic_year_taught":"2022", "Units":"3", "Delivery_format":"\"In Person\"", "Responsibility_percentage":"100"},{"Course_code":"\"CHEM-103\"", "Academic_year_taught":"2021", "Units":"3", "Delivery_format":"\"In Person\"", "Responsibility_percentage":"100"}]</rawValue>
+            <rawValue class="string">[]</rawValue>
           </FactMappingValue>
           <FactMappingValue>
             <factIdentifier>
@@ -442,10 +409,10 @@
               <className>Term Adjunct</className>
             </factIdentifier>
             <expressionIdentifier>
-              <name>1|9</name>
+              <name>1|15</name>
               <type>GIVEN</type>
             </expressionIdentifier>
-            <rawValue class="string">"123456"</rawValue>
+            <rawValue class="string">102014555</rawValue>
           </FactMappingValue>
           <FactMappingValue>
             <factIdentifier>
@@ -453,43 +420,109 @@
               <className>Term Adjunct</className>
             </factIdentifier>
             <expressionIdentifier>
-              <name>1|10</name>
+              <name>1|16</name>
               <type>GIVEN</type>
             </expressionIdentifier>
-            <rawValue class="string">"Bruce Banner"</rawValue>
+            <rawValue class="string">"Philippe Gauthier"</rawValue>
           </FactMappingValue>
           <FactMappingValue>
             <factIdentifier>
-              <name>AssessmentResult</name>
-              <className>AssessmentResult</className>
+              <name>Term Adjunct</name>
+              <className>Term Adjunct</className>
             </factIdentifier>
             <expressionIdentifier>
-              <name>1|11</name>
-              <type>EXPECT</type>
+              <name>1|17</name>
+              <type>GIVEN</type>
             </expressionIdentifier>
-            <rawValue class="string">true</rawValue>
+            <rawValue class="string">false</rawValue>
           </FactMappingValue>
           <FactMappingValue>
             <factIdentifier>
-              <name>Course Count</name>
-              <className>Course Count</className>
+              <name>Term Adjunct</name>
+              <className>Term Adjunct</className>
             </factIdentifier>
             <expressionIdentifier>
-              <name>1|12</name>
-              <type>EXPECT</type>
+              <name>1|18</name>
+              <type>GIVEN</type>
             </expressionIdentifier>
-            <rawValue class="string">3</rawValue>
+            <rawValue class="string">[]</rawValue>
           </FactMappingValue>
           <FactMappingValue>
             <factIdentifier>
-              <name>SROR Granted</name>
-              <className>SROR Granted</className>
+              <name>Term Adjunct</name>
+              <className>Term Adjunct</className>
             </factIdentifier>
             <expressionIdentifier>
-              <name>1|13</name>
+              <name>1|19</name>
+              <type>GIVEN</type>
+            </expressionIdentifier>
+            <rawValue class="string">false</rawValue>
+          </FactMappingValue>
+          <FactMappingValue>
+            <factIdentifier>
+              <name>Term Adjunct</name>
+              <className>Term Adjunct</className>
+            </factIdentifier>
+            <expressionIdentifier>
+              <name>1|20</name>
+              <type>GIVEN</type>
+            </expressionIdentifier>
+            <rawValue class="string">0</rawValue>
+          </FactMappingValue>
+          <FactMappingValue>
+            <factIdentifier>
+              <name>FCE taught</name>
+              <className>FCE taught</className>
+            </factIdentifier>
+            <expressionIdentifier>
+              <name>1|21</name>
               <type>EXPECT</type>
             </expressionIdentifier>
-            <rawValue class="string">true</rawValue>
+            <rawValue class="string">0</rawValue>
+          </FactMappingValue>
+          <FactMappingValue>
+            <factIdentifier>
+              <name>GROR Granted</name>
+              <className>GROR Granted</className>
+            </factIdentifier>
+            <expressionIdentifier>
+              <name>1|22</name>
+              <type>EXPECT</type>
+            </expressionIdentifier>
+            <rawValue class="string">false</rawValue>
+          </FactMappingValue>
+          <FactMappingValue>
+            <factIdentifier>
+              <name>SRoR with at least a 0.5 FCE</name>
+              <className>SRoR with at least a 0.5 FCE</className>
+            </factIdentifier>
+            <expressionIdentifier>
+              <name>1|27</name>
+              <type>EXPECT</type>
+            </expressionIdentifier>
+            <rawValue class="string">false</rawValue>
+          </FactMappingValue>
+          <FactMappingValue>
+            <factIdentifier>
+              <name>Served 4 Consecutive Years as Term Adjunct</name>
+              <className>Served 4 Consecutive Years as Term Adjunct</className>
+            </factIdentifier>
+            <expressionIdentifier>
+              <name>1|28</name>
+              <type>EXPECT</type>
+            </expressionIdentifier>
+            <rawValue class="string">false</rawValue>
+          </FactMappingValue>
+          <FactMappingValue>
+            <factIdentifier>
+              <name>Years of Service</name>
+              <className>Years of Service</className>
+            </factIdentifier>
+            <expressionIdentifier>
+              <name>1|29</name>
+              <type>EXPECT</type>
+            </expressionIdentifier>
+            <rawValue class="string">0</rawValue>
           </FactMappingValue>
           <FactMappingValue>
             <factIdentifier>
@@ -502,6 +535,39 @@
             </expressionIdentifier>
             <rawValue class="string">1</rawValue>
           </FactMappingValue>
+          <FactMappingValue>
+            <factIdentifier>
+              <name>Rights Status</name>
+              <className>Rights Status</className>
+            </factIdentifier>
+            <expressionIdentifier>
+              <name>1718986192887</name>
+              <type>GIVEN</type>
+            </expressionIdentifier>
+            <rawValue class="string">false</rawValue>
+          </FactMappingValue>
+          <FactMappingValue>
+            <factIdentifier>
+              <name>Rights Status</name>
+              <className>Rights Status</className>
+            </factIdentifier>
+            <expressionIdentifier>
+              <name>1718986310875</name>
+              <type>GIVEN</type>
+            </expressionIdentifier>
+            <rawValue class="string">false</rawValue>
+          </FactMappingValue>
+          <FactMappingValue>
+            <factIdentifier>
+              <name>Eligibility Date</name>
+              <className>Eligibility Date</className>
+            </factIdentifier>
+            <expressionIdentifier>
+              <name>1719265368613</name>
+              <type>EXPECT</type>
+            </expressionIdentifier>
+            <rawValue class="string">null</rawValue>
+          </FactMappingValue>
         </factMappingValues>
       </Scenario>
       <Scenario>
@@ -515,150 +581,139 @@
               <name>Description</name>
               <type>OTHER</type>
             </expressionIdentifier>
-            <rawValue class="string">Insufficient Assessments</rawValue>
+            <rawValue class="string">Minimum GROR</rawValue>
           </FactMappingValue>
           <FactMappingValue>
             <factIdentifier>
-              <name>Assessment Count</name>
-              <className>Assessment Count</className>
+              <name>Term Adjunct</name>
+              <className>Term Adjunct</className>
             </factIdentifier>
             <expressionIdentifier>
-              <name>1|1</name>
+              <name>1|14</name>
               <type>GIVEN</type>
+            </expressionIdentifier>
+            <rawValue class="string">[{"units":"6", "responsibility_percentage":"100", "delivery_format":"\"In Person\"", "course_code":"\"CISC-130\"", "academic_year_taught":"2023"},{"units":"6", "responsibility_percentage":"100", "delivery_format":"\"In Person\"", "course_code":"\"CISC-130\"", "academic_year_taught":"2022"},{"units":"6", "responsibility_percentage":"100", "delivery_format":"\"In Person\"", "course_code":"\"CISC-130\"", "academic_year_taught":"2021"},{"units":"6", "responsibility_percentage":"100", "delivery_format":"\"In Person\"", "course_code":"\"CISC-130\"", "academic_year_taught":"2020"},{"units":"6", "responsibility_percentage":"100", "delivery_format":"\"In Person\"", "course_code":"\"MATH-160\"", "academic_year_taught":"2019"},{"units":"6", "responsibility_percentage":"100", "delivery_format":"\"In Person\"", "course_code":"\"MATH-160\"", "academic_year_taught":"2018"},{"units":"6", "responsibility_percentage":"100", "delivery_format":"\"In Person\"", "course_code":"\"MATH-160\"", "academic_year_taught":"2017"},{"units":"6", "responsibility_percentage":"100", "delivery_format":"\"In Person\"", "course_code":"\"MATH-160\"", "academic_year_taught":"2016"},{"units":"6", "responsibility_percentage":"100", "delivery_format":"\"In Person\"", "course_code":"\"CHEM-130\"", "academic_year_taught":"2015"},{"units":"6", "responsibility_percentage":"100", "delivery_format":"\"in Person\"", "course_code":"\"CHEM-130\"", "academic_year_taught":"2014"},{"units":"6", "responsibility_percentage":"100", "delivery_format":"\"In Person\"", "course_code":"\"CHEM-130\"", "academic_year_taught":"2013"},{"units":"6", "responsibility_percentage":"100", "delivery_format":"\"In Person\"", "course_code":"\"CHEM-130\"", "academic_year_taught":"2012"},{"units":"6", "responsibility_percentage":"100", "delivery_format":"\"in Person\"", "course_code":"\"CHEM-130\"", "academic_year_taught":"2011"},{"units":"6", "responsibility_percentage":"100", "delivery_format":"\"In Person\"", "course_code":"\"CHEM-130\"", "academic_year_taught":"2010"},{"units":"6", "responsibility_percentage":"100", "delivery_format":"\"In Person\"", "course_code":"\"CHEM-130\"", "academic_year_taught":"2009"},{"units":"6", "responsibility_percentage":"100", "delivery_format":"\"In Person\"", "course_code":"\"CISC-130\"", "academic_year_taught":"2008"}]</rawValue>
+          </FactMappingValue>
+          <FactMappingValue>
+            <factIdentifier>
+              <name>Term Adjunct</name>
+              <className>Term Adjunct</className>
+            </factIdentifier>
+            <expressionIdentifier>
+              <name>1|15</name>
+              <type>GIVEN</type>
+            </expressionIdentifier>
+            <rawValue class="string">102014555</rawValue>
+          </FactMappingValue>
+          <FactMappingValue>
+            <factIdentifier>
+              <name>Term Adjunct</name>
+              <className>Term Adjunct</className>
+            </factIdentifier>
+            <expressionIdentifier>
+              <name>1|16</name>
+              <type>GIVEN</type>
+            </expressionIdentifier>
+            <rawValue class="string">"Philippe Gauthier"</rawValue>
+          </FactMappingValue>
+          <FactMappingValue>
+            <factIdentifier>
+              <name>Term Adjunct</name>
+              <className>Term Adjunct</className>
+            </factIdentifier>
+            <expressionIdentifier>
+              <name>1|17</name>
+              <type>GIVEN</type>
+            </expressionIdentifier>
+            <rawValue class="string">true</rawValue>
+          </FactMappingValue>
+          <FactMappingValue>
+            <factIdentifier>
+              <name>Term Adjunct</name>
+              <className>Term Adjunct</className>
+            </factIdentifier>
+            <expressionIdentifier>
+              <name>1|18</name>
+              <type>GIVEN</type>
+            </expressionIdentifier>
+            <rawValue class="string">[{"units":"6", "responsibility_percentage":"100", "delivery_format":"\"In Person\"", "course_code":"\"CISC-130\"", "academic_year_taught":"2023"}]</rawValue>
+          </FactMappingValue>
+          <FactMappingValue>
+            <factIdentifier>
+              <name>Term Adjunct</name>
+              <className>Term Adjunct</className>
+            </factIdentifier>
+            <expressionIdentifier>
+              <name>1|19</name>
+              <type>GIVEN</type>
+            </expressionIdentifier>
+            <rawValue class="string">true</rawValue>
+          </FactMappingValue>
+          <FactMappingValue>
+            <factIdentifier>
+              <name>Term Adjunct</name>
+              <className>Term Adjunct</className>
+            </factIdentifier>
+            <expressionIdentifier>
+              <name>1|20</name>
+              <type>GIVEN</type>
+            </expressionIdentifier>
+            <rawValue class="string">16</rawValue>
+          </FactMappingValue>
+          <FactMappingValue>
+            <factIdentifier>
+              <name>FCE taught</name>
+              <className>FCE taught</className>
+            </factIdentifier>
+            <expressionIdentifier>
+              <name>1|21</name>
+              <type>EXPECT</type>
             </expressionIdentifier>
             <rawValue class="string">2</rawValue>
           </FactMappingValue>
           <FactMappingValue>
             <factIdentifier>
-              <name>Hiring Date</name>
-              <className>Hiring Date</className>
+              <name>GROR Granted</name>
+              <className>GROR Granted</className>
             </factIdentifier>
             <expressionIdentifier>
-              <name>1|2</name>
-              <type>GIVEN</type>
-            </expressionIdentifier>
-            <rawValue class="string">date("2023-09-01")</rawValue>
-          </FactMappingValue>
-          <FactMappingValue>
-            <factIdentifier>
-              <name>Proposed Course</name>
-              <className>Proposed Course</className>
-            </factIdentifier>
-            <expressionIdentifier>
-              <name>1|3</name>
-              <type>GIVEN</type>
-            </expressionIdentifier>
-            <rawValue class="string">2023</rawValue>
-          </FactMappingValue>
-          <FactMappingValue>
-            <factIdentifier>
-              <name>Proposed Course</name>
-              <className>Proposed Course</className>
-            </factIdentifier>
-            <expressionIdentifier>
-              <name>1|4</name>
-              <type>GIVEN</type>
-            </expressionIdentifier>
-            <rawValue class="string">"CHEM-103"</rawValue>
-          </FactMappingValue>
-          <FactMappingValue>
-            <factIdentifier>
-              <name>Proposed Course</name>
-              <className>Proposed Course</className>
-            </factIdentifier>
-            <expressionIdentifier>
-              <name>1|5</name>
-              <type>GIVEN</type>
-            </expressionIdentifier>
-            <rawValue class="string">"In Person"</rawValue>
-          </FactMappingValue>
-          <FactMappingValue>
-            <factIdentifier>
-              <name>Proposed Course</name>
-              <className>Proposed Course</className>
-            </factIdentifier>
-            <expressionIdentifier>
-              <name>1|6</name>
-              <type>GIVEN</type>
-            </expressionIdentifier>
-            <rawValue class="string">100</rawValue>
-          </FactMappingValue>
-          <FactMappingValue>
-            <factIdentifier>
-              <name>Proposed Course</name>
-              <className>Proposed Course</className>
-            </factIdentifier>
-            <expressionIdentifier>
-              <name>1|7</name>
-              <type>GIVEN</type>
-            </expressionIdentifier>
-            <rawValue class="string">3</rawValue>
-          </FactMappingValue>
-          <FactMappingValue>
-            <factIdentifier>
-              <name>Term Adjunct</name>
-              <className>Term Adjunct</className>
-            </factIdentifier>
-            <expressionIdentifier>
-              <name>1|8</name>
-              <type>GIVEN</type>
-            </expressionIdentifier>
-            <rawValue class="string">[{"Course_code":"\"CHEM-103\"", "Academic_year_taught":"2022", "Units":"3", "Delivery_format":"\"In Person\"", "Responsibility_percentage":"100"},{"Course_code":"\"CHEM-103\"", "Academic_year_taught":"2021", "Units":"3", "Delivery_format":"\"In Person\"", "Responsibility_percentage":"100"}]</rawValue>
-          </FactMappingValue>
-          <FactMappingValue>
-            <factIdentifier>
-              <name>Term Adjunct</name>
-              <className>Term Adjunct</className>
-            </factIdentifier>
-            <expressionIdentifier>
-              <name>1|9</name>
-              <type>GIVEN</type>
-            </expressionIdentifier>
-            <rawValue class="string">"123456"</rawValue>
-          </FactMappingValue>
-          <FactMappingValue>
-            <factIdentifier>
-              <name>Term Adjunct</name>
-              <className>Term Adjunct</className>
-            </factIdentifier>
-            <expressionIdentifier>
-              <name>1|10</name>
-              <type>GIVEN</type>
-            </expressionIdentifier>
-            <rawValue class="string">"Bruce Banner"</rawValue>
-          </FactMappingValue>
-          <FactMappingValue>
-            <factIdentifier>
-              <name>AssessmentResult</name>
-              <className>AssessmentResult</className>
-            </factIdentifier>
-            <expressionIdentifier>
-              <name>1|11</name>
+              <name>1|22</name>
               <type>EXPECT</type>
             </expressionIdentifier>
-            <rawValue class="string">false</rawValue>
+            <rawValue class="string">true</rawValue>
           </FactMappingValue>
           <FactMappingValue>
             <factIdentifier>
-              <name>Course Count</name>
-              <className>Course Count</className>
+              <name>SRoR with at least a 0.5 FCE</name>
+              <className>SRoR with at least a 0.5 FCE</className>
             </factIdentifier>
             <expressionIdentifier>
-              <name>1|12</name>
+              <name>1|27</name>
               <type>EXPECT</type>
             </expressionIdentifier>
-            <rawValue class="string">3</rawValue>
+            <rawValue class="string">true</rawValue>
           </FactMappingValue>
           <FactMappingValue>
             <factIdentifier>
-              <name>SROR Granted</name>
-              <className>SROR Granted</className>
+              <name>Served 4 Consecutive Years as Term Adjunct</name>
+              <className>Served 4 Consecutive Years as Term Adjunct</className>
             </factIdentifier>
             <expressionIdentifier>
-              <name>1|13</name>
+              <name>1|28</name>
               <type>EXPECT</type>
             </expressionIdentifier>
-            <rawValue class="string">false</rawValue>
+            <rawValue class="string">true</rawValue>
+          </FactMappingValue>
+          <FactMappingValue>
+            <factIdentifier>
+              <name>Years of Service</name>
+              <className>Years of Service</className>
+            </factIdentifier>
+            <expressionIdentifier>
+              <name>1|29</name>
+              <type>EXPECT</type>
+            </expressionIdentifier>
+            <rawValue class="string">64</rawValue>
           </FactMappingValue>
           <FactMappingValue>
             <factIdentifier>
@@ -671,6 +726,39 @@
             </expressionIdentifier>
             <rawValue class="string">2</rawValue>
           </FactMappingValue>
+          <FactMappingValue>
+            <factIdentifier>
+              <name>Rights Status</name>
+              <className>Rights Status</className>
+            </factIdentifier>
+            <expressionIdentifier>
+              <name>1718986192887</name>
+              <type>GIVEN</type>
+            </expressionIdentifier>
+            <rawValue class="string">false</rawValue>
+          </FactMappingValue>
+          <FactMappingValue>
+            <factIdentifier>
+              <name>Rights Status</name>
+              <className>Rights Status</className>
+            </factIdentifier>
+            <expressionIdentifier>
+              <name>1718986310875</name>
+              <type>GIVEN</type>
+            </expressionIdentifier>
+            <rawValue class="string">false</rawValue>
+          </FactMappingValue>
+          <FactMappingValue>
+            <factIdentifier>
+              <name>Eligibility Date</name>
+              <className>Eligibility Date</className>
+            </factIdentifier>
+            <expressionIdentifier>
+              <name>1719265368613</name>
+              <type>EXPECT</type>
+            </expressionIdentifier>
+            <rawValue class="string">date("2024-07-01")</rawValue>
+          </FactMappingValue>
         </factMappingValues>
       </Scenario>
       <Scenario>
@@ -684,84 +772,7 @@
               <name>Description</name>
               <type>OTHER</type>
             </expressionIdentifier>
-            <rawValue class="string">Insufficient Assessments</rawValue>
-          </FactMappingValue>
-          <FactMappingValue>
-            <factIdentifier>
-              <name>Assessment Count</name>
-              <className>Assessment Count</className>
-            </factIdentifier>
-            <expressionIdentifier>
-              <name>1|1</name>
-              <type>GIVEN</type>
-            </expressionIdentifier>
-            <rawValue class="string">2</rawValue>
-          </FactMappingValue>
-          <FactMappingValue>
-            <factIdentifier>
-              <name>Hiring Date</name>
-              <className>Hiring Date</className>
-            </factIdentifier>
-            <expressionIdentifier>
-              <name>1|2</name>
-              <type>GIVEN</type>
-            </expressionIdentifier>
-            <rawValue class="string">date("2023-09-01")</rawValue>
-          </FactMappingValue>
-          <FactMappingValue>
-            <factIdentifier>
-              <name>Proposed Course</name>
-              <className>Proposed Course</className>
-            </factIdentifier>
-            <expressionIdentifier>
-              <name>1|3</name>
-              <type>GIVEN</type>
-            </expressionIdentifier>
-            <rawValue class="string">2023</rawValue>
-          </FactMappingValue>
-          <FactMappingValue>
-            <factIdentifier>
-              <name>Proposed Course</name>
-              <className>Proposed Course</className>
-            </factIdentifier>
-            <expressionIdentifier>
-              <name>1|4</name>
-              <type>GIVEN</type>
-            </expressionIdentifier>
-            <rawValue class="string">"CHEM-103"</rawValue>
-          </FactMappingValue>
-          <FactMappingValue>
-            <factIdentifier>
-              <name>Proposed Course</name>
-              <className>Proposed Course</className>
-            </factIdentifier>
-            <expressionIdentifier>
-              <name>1|5</name>
-              <type>GIVEN</type>
-            </expressionIdentifier>
-            <rawValue class="string">"In Person"</rawValue>
-          </FactMappingValue>
-          <FactMappingValue>
-            <factIdentifier>
-              <name>Proposed Course</name>
-              <className>Proposed Course</className>
-            </factIdentifier>
-            <expressionIdentifier>
-              <name>1|6</name>
-              <type>GIVEN</type>
-            </expressionIdentifier>
-            <rawValue class="string">100</rawValue>
-          </FactMappingValue>
-          <FactMappingValue>
-            <factIdentifier>
-              <name>Proposed Course</name>
-              <className>Proposed Course</className>
-            </factIdentifier>
-            <expressionIdentifier>
-              <name>1|7</name>
-              <type>GIVEN</type>
-            </expressionIdentifier>
-            <rawValue class="string">3</rawValue>
+            <rawValue class="string">Rights expired</rawValue>
           </FactMappingValue>
           <FactMappingValue>
             <factIdentifier>
@@ -769,10 +780,10 @@
               <className>Term Adjunct</className>
             </factIdentifier>
             <expressionIdentifier>
-              <name>1|8</name>
+              <name>1|14</name>
               <type>GIVEN</type>
             </expressionIdentifier>
-            <rawValue class="string">[{"Course_code":"\"CHEM-103\"", "Academic_year_taught":"2022", "Units":"3", "Delivery_format":"\"In Person\"", "Responsibility_percentage":"100"},{"Course_code":"\"CHEM-103\"", "Academic_year_taught":"2021", "Units":"3", "Delivery_format":"\"In Person\"", "Responsibility_percentage":"100"}]</rawValue>
+            <rawValue class="string">[{"units":"6", "responsibility_percentage":"100", "delivery_format":"\"In Person\"", "course_code":"\"CISC-130\"", "academic_year_taught":"2023"},{"units":"6", "responsibility_percentage":"100", "delivery_format":"\"In Person\"", "course_code":"\"CISC-130\"", "academic_year_taught":"2022"},{"units":"6", "responsibility_percentage":"100", "delivery_format":"\"In Person\"", "course_code":"\"CISC-130\"", "academic_year_taught":"2021"},{"units":"6", "responsibility_percentage":"100", "delivery_format":"\"In Person\"", "course_code":"\"CISC-130\"", "academic_year_taught":"2020"}]</rawValue>
           </FactMappingValue>
           <FactMappingValue>
             <factIdentifier>
@@ -780,10 +791,10 @@
               <className>Term Adjunct</className>
             </factIdentifier>
             <expressionIdentifier>
-              <name>1|9</name>
+              <name>1|15</name>
               <type>GIVEN</type>
             </expressionIdentifier>
-            <rawValue class="string">"123456"</rawValue>
+            <rawValue class="string">102014555</rawValue>
           </FactMappingValue>
           <FactMappingValue>
             <factIdentifier>
@@ -791,43 +802,109 @@
               <className>Term Adjunct</className>
             </factIdentifier>
             <expressionIdentifier>
-              <name>1|10</name>
+              <name>1|16</name>
               <type>GIVEN</type>
             </expressionIdentifier>
-            <rawValue class="string">"Bruce Banner"</rawValue>
+            <rawValue class="string">"Philippe Gauthier"</rawValue>
           </FactMappingValue>
           <FactMappingValue>
             <factIdentifier>
-              <name>AssessmentResult</name>
-              <className>AssessmentResult</className>
+              <name>Term Adjunct</name>
+              <className>Term Adjunct</className>
             </factIdentifier>
             <expressionIdentifier>
-              <name>1|11</name>
+              <name>1|17</name>
+              <type>GIVEN</type>
+            </expressionIdentifier>
+            <rawValue class="string">true</rawValue>
+          </FactMappingValue>
+          <FactMappingValue>
+            <factIdentifier>
+              <name>Term Adjunct</name>
+              <className>Term Adjunct</className>
+            </factIdentifier>
+            <expressionIdentifier>
+              <name>1|18</name>
+              <type>GIVEN</type>
+            </expressionIdentifier>
+            <rawValue class="string">[{"units":"6", "responsibility_percentage":"100", "delivery_format":"\"In Person\"", "course_code":"\"CISC-130\"", "academic_year_taught":"2023"}]</rawValue>
+          </FactMappingValue>
+          <FactMappingValue>
+            <factIdentifier>
+              <name>Term Adjunct</name>
+              <className>Term Adjunct</className>
+            </factIdentifier>
+            <expressionIdentifier>
+              <name>1|19</name>
+              <type>GIVEN</type>
+            </expressionIdentifier>
+            <rawValue class="string">true</rawValue>
+          </FactMappingValue>
+          <FactMappingValue>
+            <factIdentifier>
+              <name>Term Adjunct</name>
+              <className>Term Adjunct</className>
+            </factIdentifier>
+            <expressionIdentifier>
+              <name>1|20</name>
+              <type>GIVEN</type>
+            </expressionIdentifier>
+            <rawValue class="string">4</rawValue>
+          </FactMappingValue>
+          <FactMappingValue>
+            <factIdentifier>
+              <name>FCE taught</name>
+              <className>FCE taught</className>
+            </factIdentifier>
+            <expressionIdentifier>
+              <name>1|21</name>
+              <type>EXPECT</type>
+            </expressionIdentifier>
+            <rawValue class="string">16</rawValue>
+          </FactMappingValue>
+          <FactMappingValue>
+            <factIdentifier>
+              <name>GROR Granted</name>
+              <className>GROR Granted</className>
+            </factIdentifier>
+            <expressionIdentifier>
+              <name>1|22</name>
               <type>EXPECT</type>
             </expressionIdentifier>
             <rawValue class="string">false</rawValue>
           </FactMappingValue>
           <FactMappingValue>
             <factIdentifier>
-              <name>Course Count</name>
-              <className>Course Count</className>
+              <name>SRoR with at least a 0.5 FCE</name>
+              <className>SRoR with at least a 0.5 FCE</className>
             </factIdentifier>
             <expressionIdentifier>
-              <name>1|12</name>
+              <name>1|27</name>
               <type>EXPECT</type>
             </expressionIdentifier>
-            <rawValue class="string">3</rawValue>
+            <rawValue class="string">true</rawValue>
           </FactMappingValue>
           <FactMappingValue>
             <factIdentifier>
-              <name>SROR Granted</name>
-              <className>SROR Granted</className>
+              <name>Served 4 Consecutive Years as Term Adjunct</name>
+              <className>Served 4 Consecutive Years as Term Adjunct</className>
             </factIdentifier>
             <expressionIdentifier>
-              <name>1|13</name>
+              <name>1|28</name>
               <type>EXPECT</type>
             </expressionIdentifier>
-            <rawValue class="string">false</rawValue>
+            <rawValue class="string">true</rawValue>
+          </FactMappingValue>
+          <FactMappingValue>
+            <factIdentifier>
+              <name>Years of Service</name>
+              <className>Years of Service</className>
+            </factIdentifier>
+            <expressionIdentifier>
+              <name>1|29</name>
+              <type>EXPECT</type>
+            </expressionIdentifier>
+            <rawValue class="string">64</rawValue>
           </FactMappingValue>
           <FactMappingValue>
             <factIdentifier>
@@ -840,6 +917,39 @@
             </expressionIdentifier>
             <rawValue class="string">3</rawValue>
           </FactMappingValue>
+          <FactMappingValue>
+            <factIdentifier>
+              <name>Rights Status</name>
+              <className>Rights Status</className>
+            </factIdentifier>
+            <expressionIdentifier>
+              <name>1718986192887</name>
+              <type>GIVEN</type>
+            </expressionIdentifier>
+            <rawValue class="string">true</rawValue>
+          </FactMappingValue>
+          <FactMappingValue>
+            <factIdentifier>
+              <name>Rights Status</name>
+              <className>Rights Status</className>
+            </factIdentifier>
+            <expressionIdentifier>
+              <name>1718986310875</name>
+              <type>GIVEN</type>
+            </expressionIdentifier>
+            <rawValue class="string">false</rawValue>
+          </FactMappingValue>
+          <FactMappingValue>
+            <factIdentifier>
+              <name>Eligibility Date</name>
+              <className>Eligibility Date</className>
+            </factIdentifier>
+            <expressionIdentifier>
+              <name>1719265368613</name>
+              <type>EXPECT</type>
+            </expressionIdentifier>
+            <rawValue class="string">null</rawValue>
+          </FactMappingValue>
         </factMappingValues>
       </Scenario>
       <Scenario>
@@ -853,84 +963,7 @@
               <name>Description</name>
               <type>OTHER</type>
             </expressionIdentifier>
-            <rawValue class="string">Not All Courses 100%</rawValue>
-          </FactMappingValue>
-          <FactMappingValue>
-            <factIdentifier>
-              <name>Assessment Count</name>
-              <className>Assessment Count</className>
-            </factIdentifier>
-            <expressionIdentifier>
-              <name>1|1</name>
-              <type>GIVEN</type>
-            </expressionIdentifier>
-            <rawValue class="string">2</rawValue>
-          </FactMappingValue>
-          <FactMappingValue>
-            <factIdentifier>
-              <name>Hiring Date</name>
-              <className>Hiring Date</className>
-            </factIdentifier>
-            <expressionIdentifier>
-              <name>1|2</name>
-              <type>GIVEN</type>
-            </expressionIdentifier>
-            <rawValue class="string">date("2023-09-01")</rawValue>
-          </FactMappingValue>
-          <FactMappingValue>
-            <factIdentifier>
-              <name>Proposed Course</name>
-              <className>Proposed Course</className>
-            </factIdentifier>
-            <expressionIdentifier>
-              <name>1|3</name>
-              <type>GIVEN</type>
-            </expressionIdentifier>
-            <rawValue class="string">2023</rawValue>
-          </FactMappingValue>
-          <FactMappingValue>
-            <factIdentifier>
-              <name>Proposed Course</name>
-              <className>Proposed Course</className>
-            </factIdentifier>
-            <expressionIdentifier>
-              <name>1|4</name>
-              <type>GIVEN</type>
-            </expressionIdentifier>
-            <rawValue class="string">"CHEM-103"</rawValue>
-          </FactMappingValue>
-          <FactMappingValue>
-            <factIdentifier>
-              <name>Proposed Course</name>
-              <className>Proposed Course</className>
-            </factIdentifier>
-            <expressionIdentifier>
-              <name>1|5</name>
-              <type>GIVEN</type>
-            </expressionIdentifier>
-            <rawValue class="string">"In Person"</rawValue>
-          </FactMappingValue>
-          <FactMappingValue>
-            <factIdentifier>
-              <name>Proposed Course</name>
-              <className>Proposed Course</className>
-            </factIdentifier>
-            <expressionIdentifier>
-              <name>1|6</name>
-              <type>GIVEN</type>
-            </expressionIdentifier>
-            <rawValue class="string">50</rawValue>
-          </FactMappingValue>
-          <FactMappingValue>
-            <factIdentifier>
-              <name>Proposed Course</name>
-              <className>Proposed Course</className>
-            </factIdentifier>
-            <expressionIdentifier>
-              <name>1|7</name>
-              <type>GIVEN</type>
-            </expressionIdentifier>
-            <rawValue class="string">3</rawValue>
+            <rawValue class="string">Rights Lost</rawValue>
           </FactMappingValue>
           <FactMappingValue>
             <factIdentifier>
@@ -938,10 +971,10 @@
               <className>Term Adjunct</className>
             </factIdentifier>
             <expressionIdentifier>
-              <name>1|8</name>
+              <name>1|14</name>
               <type>GIVEN</type>
             </expressionIdentifier>
-            <rawValue class="string">[{"Course_code":"\"CHEM-103\"", "Academic_year_taught":"2022", "Units":"3", "Delivery_format":"\"In Person\"", "Responsibility_percentage":"100"},{"Course_code":"\"CHEM-103\"", "Academic_year_taught":"2021", "Units":"3", "Delivery_format":"\"In Person\"", "Responsibility_percentage":"100"}]</rawValue>
+            <rawValue class="string">[{"units":"6", "responsibility_percentage":"100", "delivery_format":"\"In Person\"", "course_code":"\"CISC-130\"", "academic_year_taught":"2023"},{"units":"6", "responsibility_percentage":"100", "delivery_format":"\"In Person\"", "course_code":"\"CISC-130\"", "academic_year_taught":"2022"},{"units":"6", "responsibility_percentage":"100", "delivery_format":"\"In Person\"", "course_code":"\"CISC-130\"", "academic_year_taught":"2021"},{"units":"6", "responsibility_percentage":"100", "delivery_format":"\"In Person\"", "course_code":"\"CISC-130\"", "academic_year_taught":"2020"}]</rawValue>
           </FactMappingValue>
           <FactMappingValue>
             <factIdentifier>
@@ -949,10 +982,10 @@
               <className>Term Adjunct</className>
             </factIdentifier>
             <expressionIdentifier>
-              <name>1|9</name>
+              <name>1|15</name>
               <type>GIVEN</type>
             </expressionIdentifier>
-            <rawValue class="string">"123456"</rawValue>
+            <rawValue class="string">102014555</rawValue>
           </FactMappingValue>
           <FactMappingValue>
             <factIdentifier>
@@ -960,43 +993,109 @@
               <className>Term Adjunct</className>
             </factIdentifier>
             <expressionIdentifier>
-              <name>1|10</name>
+              <name>1|16</name>
               <type>GIVEN</type>
             </expressionIdentifier>
-            <rawValue class="string">"Bruce Banner"</rawValue>
+            <rawValue class="string">"Philippe Gauthier"</rawValue>
           </FactMappingValue>
           <FactMappingValue>
             <factIdentifier>
-              <name>AssessmentResult</name>
-              <className>AssessmentResult</className>
+              <name>Term Adjunct</name>
+              <className>Term Adjunct</className>
             </factIdentifier>
             <expressionIdentifier>
-              <name>1|11</name>
+              <name>1|17</name>
+              <type>GIVEN</type>
+            </expressionIdentifier>
+            <rawValue class="string">true</rawValue>
+          </FactMappingValue>
+          <FactMappingValue>
+            <factIdentifier>
+              <name>Term Adjunct</name>
+              <className>Term Adjunct</className>
+            </factIdentifier>
+            <expressionIdentifier>
+              <name>1|18</name>
+              <type>GIVEN</type>
+            </expressionIdentifier>
+            <rawValue class="string">[{"units":"6", "responsibility_percentage":"100", "delivery_format":"\"In Person\"", "course_code":"\"CISC-130\"", "academic_year_taught":"2023"}]</rawValue>
+          </FactMappingValue>
+          <FactMappingValue>
+            <factIdentifier>
+              <name>Term Adjunct</name>
+              <className>Term Adjunct</className>
+            </factIdentifier>
+            <expressionIdentifier>
+              <name>1|19</name>
+              <type>GIVEN</type>
+            </expressionIdentifier>
+            <rawValue class="string">true</rawValue>
+          </FactMappingValue>
+          <FactMappingValue>
+            <factIdentifier>
+              <name>Term Adjunct</name>
+              <className>Term Adjunct</className>
+            </factIdentifier>
+            <expressionIdentifier>
+              <name>1|20</name>
+              <type>GIVEN</type>
+            </expressionIdentifier>
+            <rawValue class="string">4</rawValue>
+          </FactMappingValue>
+          <FactMappingValue>
+            <factIdentifier>
+              <name>FCE taught</name>
+              <className>FCE taught</className>
+            </factIdentifier>
+            <expressionIdentifier>
+              <name>1|21</name>
+              <type>EXPECT</type>
+            </expressionIdentifier>
+            <rawValue class="string">16</rawValue>
+          </FactMappingValue>
+          <FactMappingValue>
+            <factIdentifier>
+              <name>GROR Granted</name>
+              <className>GROR Granted</className>
+            </factIdentifier>
+            <expressionIdentifier>
+              <name>1|22</name>
               <type>EXPECT</type>
             </expressionIdentifier>
             <rawValue class="string">false</rawValue>
           </FactMappingValue>
           <FactMappingValue>
             <factIdentifier>
-              <name>Course Count</name>
-              <className>Course Count</className>
+              <name>SRoR with at least a 0.5 FCE</name>
+              <className>SRoR with at least a 0.5 FCE</className>
             </factIdentifier>
             <expressionIdentifier>
-              <name>1|12</name>
+              <name>1|27</name>
               <type>EXPECT</type>
             </expressionIdentifier>
-            <rawValue class="string">2</rawValue>
+            <rawValue class="string">true</rawValue>
           </FactMappingValue>
           <FactMappingValue>
             <factIdentifier>
-              <name>SROR Granted</name>
-              <className>SROR Granted</className>
+              <name>Served 4 Consecutive Years as Term Adjunct</name>
+              <className>Served 4 Consecutive Years as Term Adjunct</className>
             </factIdentifier>
             <expressionIdentifier>
-              <name>1|13</name>
+              <name>1|28</name>
               <type>EXPECT</type>
             </expressionIdentifier>
-            <rawValue class="string">false</rawValue>
+            <rawValue class="string">true</rawValue>
+          </FactMappingValue>
+          <FactMappingValue>
+            <factIdentifier>
+              <name>Years of Service</name>
+              <className>Years of Service</className>
+            </factIdentifier>
+            <expressionIdentifier>
+              <name>1|29</name>
+              <type>EXPECT</type>
+            </expressionIdentifier>
+            <rawValue class="string">64</rawValue>
           </FactMappingValue>
           <FactMappingValue>
             <factIdentifier>
@@ -1009,6 +1108,39 @@
             </expressionIdentifier>
             <rawValue class="string">4</rawValue>
           </FactMappingValue>
+          <FactMappingValue>
+            <factIdentifier>
+              <name>Rights Status</name>
+              <className>Rights Status</className>
+            </factIdentifier>
+            <expressionIdentifier>
+              <name>1718986192887</name>
+              <type>GIVEN</type>
+            </expressionIdentifier>
+            <rawValue class="string">false</rawValue>
+          </FactMappingValue>
+          <FactMappingValue>
+            <factIdentifier>
+              <name>Rights Status</name>
+              <className>Rights Status</className>
+            </factIdentifier>
+            <expressionIdentifier>
+              <name>1718986310875</name>
+              <type>GIVEN</type>
+            </expressionIdentifier>
+            <rawValue class="string">true</rawValue>
+          </FactMappingValue>
+          <FactMappingValue>
+            <factIdentifier>
+              <name>Eligibility Date</name>
+              <className>Eligibility Date</className>
+            </factIdentifier>
+            <expressionIdentifier>
+              <name>1719265368613</name>
+              <type>EXPECT</type>
+            </expressionIdentifier>
+            <rawValue class="string">null</rawValue>
+          </FactMappingValue>
         </factMappingValues>
       </Scenario>
       <Scenario>
@@ -1022,84 +1154,7 @@
               <name>Description</name>
               <type>OTHER</type>
             </expressionIdentifier>
-            <rawValue class="string">Insufficient Courses Taught</rawValue>
-          </FactMappingValue>
-          <FactMappingValue>
-            <factIdentifier>
-              <name>Assessment Count</name>
-              <className>Assessment Count</className>
-            </factIdentifier>
-            <expressionIdentifier>
-              <name>1|1</name>
-              <type>GIVEN</type>
-            </expressionIdentifier>
-            <rawValue class="string">3</rawValue>
-          </FactMappingValue>
-          <FactMappingValue>
-            <factIdentifier>
-              <name>Hiring Date</name>
-              <className>Hiring Date</className>
-            </factIdentifier>
-            <expressionIdentifier>
-              <name>1|2</name>
-              <type>GIVEN</type>
-            </expressionIdentifier>
-            <rawValue class="string">date("2023-09-01")</rawValue>
-          </FactMappingValue>
-          <FactMappingValue>
-            <factIdentifier>
-              <name>Proposed Course</name>
-              <className>Proposed Course</className>
-            </factIdentifier>
-            <expressionIdentifier>
-              <name>1|3</name>
-              <type>GIVEN</type>
-            </expressionIdentifier>
-            <rawValue class="string">2023</rawValue>
-          </FactMappingValue>
-          <FactMappingValue>
-            <factIdentifier>
-              <name>Proposed Course</name>
-              <className>Proposed Course</className>
-            </factIdentifier>
-            <expressionIdentifier>
-              <name>1|4</name>
-              <type>GIVEN</type>
-            </expressionIdentifier>
-            <rawValue class="string">"CHEM-103"</rawValue>
-          </FactMappingValue>
-          <FactMappingValue>
-            <factIdentifier>
-              <name>Proposed Course</name>
-              <className>Proposed Course</className>
-            </factIdentifier>
-            <expressionIdentifier>
-              <name>1|5</name>
-              <type>GIVEN</type>
-            </expressionIdentifier>
-            <rawValue class="string">"In Person"</rawValue>
-          </FactMappingValue>
-          <FactMappingValue>
-            <factIdentifier>
-              <name>Proposed Course</name>
-              <className>Proposed Course</className>
-            </factIdentifier>
-            <expressionIdentifier>
-              <name>1|6</name>
-              <type>GIVEN</type>
-            </expressionIdentifier>
-            <rawValue class="string">100</rawValue>
-          </FactMappingValue>
-          <FactMappingValue>
-            <factIdentifier>
-              <name>Proposed Course</name>
-              <className>Proposed Course</className>
-            </factIdentifier>
-            <expressionIdentifier>
-              <name>1|7</name>
-              <type>GIVEN</type>
-            </expressionIdentifier>
-            <rawValue class="string">3</rawValue>
+            <rawValue class="string">insufficient courses taught</rawValue>
           </FactMappingValue>
           <FactMappingValue>
             <factIdentifier>
@@ -1107,10 +1162,10 @@
               <className>Term Adjunct</className>
             </factIdentifier>
             <expressionIdentifier>
-              <name>1|8</name>
+              <name>1|14</name>
               <type>GIVEN</type>
             </expressionIdentifier>
-            <rawValue class="string">[{"Course_code":"\"CHEM-103\"", "Academic_year_taught":"2022", "Units":"3", "Delivery_format":"\"In Person\"", "Responsibility_percentage":"100"}]</rawValue>
+            <rawValue class="string">[{"units":"6", "responsibility_percentage":"100", "delivery_format":"\"In Person\"", "course_code":"\"CISC-130\"", "academic_year_taught":"2023"},{"units":"6", "responsibility_percentage":"100", "delivery_format":"\"In Person\"", "course_code":"\"CISC-130\"", "academic_year_taught":"2022"},{"units":"6", "responsibility_percentage":"100", "delivery_format":"\"In Person\"", "course_code":"\"CISC-130\"", "academic_year_taught":"2021"}]</rawValue>
           </FactMappingValue>
           <FactMappingValue>
             <factIdentifier>
@@ -1118,10 +1173,10 @@
               <className>Term Adjunct</className>
             </factIdentifier>
             <expressionIdentifier>
-              <name>1|9</name>
+              <name>1|15</name>
               <type>GIVEN</type>
             </expressionIdentifier>
-            <rawValue class="string">"123456"</rawValue>
+            <rawValue class="string">102014555</rawValue>
           </FactMappingValue>
           <FactMappingValue>
             <factIdentifier>
@@ -1129,43 +1184,108 @@
               <className>Term Adjunct</className>
             </factIdentifier>
             <expressionIdentifier>
-              <name>1|10</name>
+              <name>1|16</name>
               <type>GIVEN</type>
             </expressionIdentifier>
-            <rawValue class="string">"Bruce Banner"</rawValue>
+            <rawValue class="string">"Philippe Gauthier"</rawValue>
           </FactMappingValue>
           <FactMappingValue>
             <factIdentifier>
-              <name>AssessmentResult</name>
-              <className>AssessmentResult</className>
+              <name>Term Adjunct</name>
+              <className>Term Adjunct</className>
             </factIdentifier>
             <expressionIdentifier>
-              <name>1|11</name>
+              <name>1|17</name>
+              <type>GIVEN</type>
+            </expressionIdentifier>
+            <rawValue class="string">true</rawValue>
+          </FactMappingValue>
+          <FactMappingValue>
+            <factIdentifier>
+              <name>Term Adjunct</name>
+              <className>Term Adjunct</className>
+            </factIdentifier>
+            <expressionIdentifier>
+              <name>1|18</name>
+              <type>GIVEN</type>
+            </expressionIdentifier>
+            <rawValue class="string">[{"units":"6", "responsibility_percentage":"100", "delivery_format":"\"In Person\"", "course_code":"\"CISC-130\"", "academic_year_taught":"2023"}]</rawValue>
+          </FactMappingValue>
+          <FactMappingValue>
+            <factIdentifier>
+              <name>Term Adjunct</name>
+              <className>Term Adjunct</className>
+            </factIdentifier>
+            <expressionIdentifier>
+              <name>1|19</name>
+              <type>GIVEN</type>
+            </expressionIdentifier>
+            <rawValue class="string">true</rawValue>
+          </FactMappingValue>
+          <FactMappingValue>
+            <factIdentifier>
+              <name>Term Adjunct</name>
+              <className>Term Adjunct</className>
+            </factIdentifier>
+            <expressionIdentifier>
+              <name>1|20</name>
+              <type>GIVEN</type>
+            </expressionIdentifier>
+            <rawValue class="string">4</rawValue>
+          </FactMappingValue>
+          <FactMappingValue>
+            <factIdentifier>
+              <name>FCE taught</name>
+              <className>FCE taught</className>
+            </factIdentifier>
+            <expressionIdentifier>
+              <name>1|21</name>
+              <type>EXPECT</type>
+            </expressionIdentifier>
+            <rawValue class="string">12</rawValue>
+          </FactMappingValue>
+          <FactMappingValue>
+            <factIdentifier>
+              <name>GROR Granted</name>
+              <className>GROR Granted</className>
+            </factIdentifier>
+            <expressionIdentifier>
+              <name>1|22</name>
+              <type>EXPECT</type>
+            </expressionIdentifier>
+            <rawValue class="string">false</rawValue>
+          </FactMappingValue>
+          <FactMappingValue>
+            <factIdentifier>
+              <name>SRoR with at least a 0.5 FCE</name>
+              <className>SRoR with at least a 0.5 FCE</className>
+            </factIdentifier>
+            <expressionIdentifier>
+              <name>1|27</name>
               <type>EXPECT</type>
             </expressionIdentifier>
             <rawValue class="string">true</rawValue>
           </FactMappingValue>
           <FactMappingValue>
             <factIdentifier>
-              <name>Course Count</name>
-              <className>Course Count</className>
+              <name>Served 4 Consecutive Years as Term Adjunct</name>
+              <className>Served 4 Consecutive Years as Term Adjunct</className>
             </factIdentifier>
             <expressionIdentifier>
-              <name>1|12</name>
-              <type>EXPECT</type>
-            </expressionIdentifier>
-            <rawValue class="string">2</rawValue>
-          </FactMappingValue>
-          <FactMappingValue>
-            <factIdentifier>
-              <name>SROR Granted</name>
-              <className>SROR Granted</className>
-            </factIdentifier>
-            <expressionIdentifier>
-              <name>1|13</name>
+              <name>1|28</name>
               <type>EXPECT</type>
             </expressionIdentifier>
             <rawValue class="string">false</rawValue>
+          </FactMappingValue>
+          <FactMappingValue>
+            <factIdentifier>
+              <name>Years of Service</name>
+              <className>Years of Service</className>
+            </factIdentifier>
+            <expressionIdentifier>
+              <name>1|29</name>
+              <type>EXPECT</type>
+            </expressionIdentifier>
           </FactMappingValue>
           <FactMappingValue>
             <factIdentifier>
@@ -1178,343 +1298,38 @@
             </expressionIdentifier>
             <rawValue class="string">5</rawValue>
           </FactMappingValue>
-        </factMappingValues>
-      </Scenario>
-      <Scenario>
-        <factMappingValues>
           <FactMappingValue>
             <factIdentifier>
-              <name>Scenario description</name>
-              <className>java.lang.String</className>
+              <name>Rights Status</name>
+              <className>Rights Status</className>
             </factIdentifier>
             <expressionIdentifier>
-              <name>Description</name>
-              <type>OTHER</type>
-            </expressionIdentifier>
-            <rawValue class="string">Taught other courses over last 4 years, but not enough of proposed course.</rawValue>
-          </FactMappingValue>
-          <FactMappingValue>
-            <factIdentifier>
-              <name>Assessment Count</name>
-              <className>Assessment Count</className>
-            </factIdentifier>
-            <expressionIdentifier>
-              <name>1|1</name>
+              <name>1718986192887</name>
               <type>GIVEN</type>
-            </expressionIdentifier>
-            <rawValue class="string">3</rawValue>
-          </FactMappingValue>
-          <FactMappingValue>
-            <factIdentifier>
-              <name>Hiring Date</name>
-              <className>Hiring Date</className>
-            </factIdentifier>
-            <expressionIdentifier>
-              <name>1|2</name>
-              <type>GIVEN</type>
-            </expressionIdentifier>
-            <rawValue class="string">date("2023-09-01")</rawValue>
-          </FactMappingValue>
-          <FactMappingValue>
-            <factIdentifier>
-              <name>Proposed Course</name>
-              <className>Proposed Course</className>
-            </factIdentifier>
-            <expressionIdentifier>
-              <name>1|3</name>
-              <type>GIVEN</type>
-            </expressionIdentifier>
-            <rawValue class="string">2023</rawValue>
-          </FactMappingValue>
-          <FactMappingValue>
-            <factIdentifier>
-              <name>Proposed Course</name>
-              <className>Proposed Course</className>
-            </factIdentifier>
-            <expressionIdentifier>
-              <name>1|4</name>
-              <type>GIVEN</type>
-            </expressionIdentifier>
-            <rawValue class="string">"CHEM-103"</rawValue>
-          </FactMappingValue>
-          <FactMappingValue>
-            <factIdentifier>
-              <name>Proposed Course</name>
-              <className>Proposed Course</className>
-            </factIdentifier>
-            <expressionIdentifier>
-              <name>1|5</name>
-              <type>GIVEN</type>
-            </expressionIdentifier>
-            <rawValue class="string">"In Person"</rawValue>
-          </FactMappingValue>
-          <FactMappingValue>
-            <factIdentifier>
-              <name>Proposed Course</name>
-              <className>Proposed Course</className>
-            </factIdentifier>
-            <expressionIdentifier>
-              <name>1|6</name>
-              <type>GIVEN</type>
-            </expressionIdentifier>
-            <rawValue class="string">100</rawValue>
-          </FactMappingValue>
-          <FactMappingValue>
-            <factIdentifier>
-              <name>Proposed Course</name>
-              <className>Proposed Course</className>
-            </factIdentifier>
-            <expressionIdentifier>
-              <name>1|7</name>
-              <type>GIVEN</type>
-            </expressionIdentifier>
-            <rawValue class="string">3</rawValue>
-          </FactMappingValue>
-          <FactMappingValue>
-            <factIdentifier>
-              <name>Term Adjunct</name>
-              <className>Term Adjunct</className>
-            </factIdentifier>
-            <expressionIdentifier>
-              <name>1|8</name>
-              <type>GIVEN</type>
-            </expressionIdentifier>
-            <rawValue class="string">[{"Course_code":"\"CHEM-103\"", "Academic_year_taught":"2022", "Units":"3", "Delivery_format":"\"In Person\"", "Responsibility_percentage":"100"},{"Course_code":"\"CHEM-203\"", "Academic_year_taught":"2021", "Units":"3", "Delivery_format":"\"In Person\"", "Responsibility_percentage":"100"}]</rawValue>
-          </FactMappingValue>
-          <FactMappingValue>
-            <factIdentifier>
-              <name>Term Adjunct</name>
-              <className>Term Adjunct</className>
-            </factIdentifier>
-            <expressionIdentifier>
-              <name>1|9</name>
-              <type>GIVEN</type>
-            </expressionIdentifier>
-            <rawValue class="string">"123456"</rawValue>
-          </FactMappingValue>
-          <FactMappingValue>
-            <factIdentifier>
-              <name>Term Adjunct</name>
-              <className>Term Adjunct</className>
-            </factIdentifier>
-            <expressionIdentifier>
-              <name>1|10</name>
-              <type>GIVEN</type>
-            </expressionIdentifier>
-            <rawValue class="string">"Bruce Banner"</rawValue>
-          </FactMappingValue>
-          <FactMappingValue>
-            <factIdentifier>
-              <name>AssessmentResult</name>
-              <className>AssessmentResult</className>
-            </factIdentifier>
-            <expressionIdentifier>
-              <name>1|11</name>
-              <type>EXPECT</type>
-            </expressionIdentifier>
-            <rawValue class="string">true</rawValue>
-          </FactMappingValue>
-          <FactMappingValue>
-            <factIdentifier>
-              <name>Course Count</name>
-              <className>Course Count</className>
-            </factIdentifier>
-            <expressionIdentifier>
-              <name>1|12</name>
-              <type>EXPECT</type>
-            </expressionIdentifier>
-            <rawValue class="string">2</rawValue>
-          </FactMappingValue>
-          <FactMappingValue>
-            <factIdentifier>
-              <name>SROR Granted</name>
-              <className>SROR Granted</className>
-            </factIdentifier>
-            <expressionIdentifier>
-              <name>1|13</name>
-              <type>EXPECT</type>
             </expressionIdentifier>
             <rawValue class="string">false</rawValue>
           </FactMappingValue>
           <FactMappingValue>
             <factIdentifier>
-              <name>#</name>
-              <className>java.lang.Integer</className>
+              <name>Rights Status</name>
+              <className>Rights Status</className>
             </factIdentifier>
             <expressionIdentifier>
-              <name>Index</name>
-              <type>OTHER</type>
-            </expressionIdentifier>
-            <rawValue class="string">6</rawValue>
-          </FactMappingValue>
-        </factMappingValues>
-      </Scenario>
-      <Scenario>
-        <factMappingValues>
-          <FactMappingValue>
-            <factIdentifier>
-              <name>Scenario description</name>
-              <className>java.lang.String</className>
-            </factIdentifier>
-            <expressionIdentifier>
-              <name>Description</name>
-              <type>OTHER</type>
-            </expressionIdentifier>
-            <rawValue class="string">Taught Proposed course ove 5 years</rawValue>
-          </FactMappingValue>
-          <FactMappingValue>
-            <factIdentifier>
-              <name>Assessment Count</name>
-              <className>Assessment Count</className>
-            </factIdentifier>
-            <expressionIdentifier>
-              <name>1|1</name>
+              <name>1718986310875</name>
               <type>GIVEN</type>
-            </expressionIdentifier>
-            <rawValue class="string">3</rawValue>
-          </FactMappingValue>
-          <FactMappingValue>
-            <factIdentifier>
-              <name>Hiring Date</name>
-              <className>Hiring Date</className>
-            </factIdentifier>
-            <expressionIdentifier>
-              <name>1|2</name>
-              <type>GIVEN</type>
-            </expressionIdentifier>
-            <rawValue class="string">date("2023-09-01")</rawValue>
-          </FactMappingValue>
-          <FactMappingValue>
-            <factIdentifier>
-              <name>Proposed Course</name>
-              <className>Proposed Course</className>
-            </factIdentifier>
-            <expressionIdentifier>
-              <name>1|3</name>
-              <type>GIVEN</type>
-            </expressionIdentifier>
-            <rawValue class="string">2023</rawValue>
-          </FactMappingValue>
-          <FactMappingValue>
-            <factIdentifier>
-              <name>Proposed Course</name>
-              <className>Proposed Course</className>
-            </factIdentifier>
-            <expressionIdentifier>
-              <name>1|4</name>
-              <type>GIVEN</type>
-            </expressionIdentifier>
-            <rawValue class="string">"CHEM-103"</rawValue>
-          </FactMappingValue>
-          <FactMappingValue>
-            <factIdentifier>
-              <name>Proposed Course</name>
-              <className>Proposed Course</className>
-            </factIdentifier>
-            <expressionIdentifier>
-              <name>1|5</name>
-              <type>GIVEN</type>
-            </expressionIdentifier>
-            <rawValue class="string">"In Person"</rawValue>
-          </FactMappingValue>
-          <FactMappingValue>
-            <factIdentifier>
-              <name>Proposed Course</name>
-              <className>Proposed Course</className>
-            </factIdentifier>
-            <expressionIdentifier>
-              <name>1|6</name>
-              <type>GIVEN</type>
-            </expressionIdentifier>
-            <rawValue class="string">100</rawValue>
-          </FactMappingValue>
-          <FactMappingValue>
-            <factIdentifier>
-              <name>Proposed Course</name>
-              <className>Proposed Course</className>
-            </factIdentifier>
-            <expressionIdentifier>
-              <name>1|7</name>
-              <type>GIVEN</type>
-            </expressionIdentifier>
-            <rawValue class="string">3</rawValue>
-          </FactMappingValue>
-          <FactMappingValue>
-            <factIdentifier>
-              <name>Term Adjunct</name>
-              <className>Term Adjunct</className>
-            </factIdentifier>
-            <expressionIdentifier>
-              <name>1|8</name>
-              <type>GIVEN</type>
-            </expressionIdentifier>
-            <rawValue class="string">[{"Course_code":"\"CHEM-103\"", "Academic_year_taught":"2022", "Units":"3", "Delivery_format":"\"In Person\"", "Responsibility_percentage":"100"},{"Course_code":"\"CHEM-203\"", "Academic_year_taught":"2021", "Units":"3", "Delivery_format":"\"In Person\"", "Responsibility_percentage":"100"},{"Course_code":"\"CHEM-103\"", "Academic_year_taught":"2017", "Units":"3", "Delivery_format":"\"In Person\"", "Responsibility_percentage":"100"}]</rawValue>
-          </FactMappingValue>
-          <FactMappingValue>
-            <factIdentifier>
-              <name>Term Adjunct</name>
-              <className>Term Adjunct</className>
-            </factIdentifier>
-            <expressionIdentifier>
-              <name>1|9</name>
-              <type>GIVEN</type>
-            </expressionIdentifier>
-            <rawValue class="string">"123456"</rawValue>
-          </FactMappingValue>
-          <FactMappingValue>
-            <factIdentifier>
-              <name>Term Adjunct</name>
-              <className>Term Adjunct</className>
-            </factIdentifier>
-            <expressionIdentifier>
-              <name>1|10</name>
-              <type>GIVEN</type>
-            </expressionIdentifier>
-            <rawValue class="string">"Bruce Banner"</rawValue>
-          </FactMappingValue>
-          <FactMappingValue>
-            <factIdentifier>
-              <name>AssessmentResult</name>
-              <className>AssessmentResult</className>
-            </factIdentifier>
-            <expressionIdentifier>
-              <name>1|11</name>
-              <type>EXPECT</type>
-            </expressionIdentifier>
-            <rawValue class="string">true</rawValue>
-          </FactMappingValue>
-          <FactMappingValue>
-            <factIdentifier>
-              <name>Course Count</name>
-              <className>Course Count</className>
-            </factIdentifier>
-            <expressionIdentifier>
-              <name>1|12</name>
-              <type>EXPECT</type>
-            </expressionIdentifier>
-            <rawValue class="string">2</rawValue>
-          </FactMappingValue>
-          <FactMappingValue>
-            <factIdentifier>
-              <name>SROR Granted</name>
-              <className>SROR Granted</className>
-            </factIdentifier>
-            <expressionIdentifier>
-              <name>1|13</name>
-              <type>EXPECT</type>
             </expressionIdentifier>
             <rawValue class="string">false</rawValue>
           </FactMappingValue>
           <FactMappingValue>
             <factIdentifier>
-              <name>#</name>
-              <className>java.lang.Integer</className>
+              <name>Eligibility Date</name>
+              <className>Eligibility Date</className>
             </factIdentifier>
             <expressionIdentifier>
-              <name>Index</name>
-              <type>OTHER</type>
+              <name>1719265368613</name>
+              <type>EXPECT</type>
             </expressionIdentifier>
-            <rawValue class="string">7</rawValue>
+            <rawValue class="string">null</rawValue>
           </FactMappingValue>
         </factMappingValues>
       </Scenario>
@@ -1536,7 +1351,7 @@
           <className>java.lang.Void</className>
           <factAlias>INSTANCE 1</factAlias>
           <expressionAlias>PROPERTY 1</expressionAlias>
-          <columnWidth>1035</columnWidth>
+          <columnWidth>114</columnWidth>
           <factMappingValueType>NOT_EXPRESSION</factMappingValueType>
         </FactMapping>
       </factMappings>
@@ -1559,10 +1374,10 @@
     </scesimData>
   </background>
   <settings>
-    <dmnFilePath>src/main/resources/META-INF/sror.dmn</dmnFilePath>
+    <dmnFilePath>../../main/resources/META-INF/gror.dmn</dmnFilePath>
     <type>DMN</type>
-    <dmnNamespace>https://kiegroup.org/dmn/_691425E9-D743-4F6F-9019-2607F6766BFD</dmnNamespace>
-    <dmnName>sror</dmnName>
+    <dmnNamespace>https://kiegroup.org/dmn/_676F9720-3A0C-4EAD-9D0A-A68E7016CED7</dmnNamespace>
+    <dmnName>gror</dmnName>
     <skipFromBuild>false</skipFromBuild>
     <stateless>false</stateless>
   </settings>
