@@ -1,0 +1,411 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dmn:definitions xmlns:dmn="http://www.omg.org/spec/DMN/20180521/MODEL/" xmlns="https://kiegroup.org/dmn/_691425E9-D743-4F6F-9019-2607F6766BFD" xmlns:feel="http://www.omg.org/spec/DMN/20180521/FEEL/" xmlns:kie="http://www.drools.org/kie/dmn/1.2" xmlns:dmndi="http://www.omg.org/spec/DMN/20180521/DMNDI/" xmlns:di="http://www.omg.org/spec/DMN/20180521/DI/" xmlns:dc="http://www.omg.org/spec/DMN/20180521/DC/" id="_D94B7B5B-5B99-4372-9607-58C7AC627A93" name="sror" typeLanguage="http://www.omg.org/spec/DMN/20180521/FEEL/" namespace="https://kiegroup.org/dmn/_691425E9-D743-4F6F-9019-2607F6766BFD">
+  <dmn:extensionElements/>
+  <dmn:itemDefinition id="_2DBA9AD0-4737-44AC-AD81-54B65F2161F7" name="tCourses" isCollection="true">
+    <dmn:typeRef>tCourse</dmn:typeRef>
+  </dmn:itemDefinition>
+  <dmn:itemDefinition id="_9D8FCE05-246D-4FA6-BF41-93936B374BB8" name="tCourse" isCollection="false">
+    <dmn:itemComponent id="_D72ABDA7-18E0-4F69-92BB-396B769884B2" name="units" isCollection="false">
+      <dmn:typeRef>number</dmn:typeRef>
+    </dmn:itemComponent>
+    <dmn:itemComponent id="_37FA086E-6C35-425F-9209-C42130CD76F2" name="responsibility_percentage" isCollection="false">
+      <dmn:typeRef>number</dmn:typeRef>
+    </dmn:itemComponent>
+    <dmn:itemComponent id="_229B3323-DBEE-4027-BCDD-9AD811D0CFE9" name="delivery_format" isCollection="false">
+      <dmn:typeRef>string</dmn:typeRef>
+    </dmn:itemComponent>
+    <dmn:itemComponent id="_5E30E98E-2DDA-4B26-AA91-1D06F04B2602" name="course_code" isCollection="false">
+      <dmn:typeRef>string</dmn:typeRef>
+    </dmn:itemComponent>
+    <dmn:itemComponent id="_8E0DE847-A62B-45BC-80B1-7A154D0670A3" name="academic_year_taught" isCollection="false">
+      <dmn:typeRef>number</dmn:typeRef>
+    </dmn:itemComponent>
+  </dmn:itemDefinition>
+  <dmn:itemDefinition id="_4DD08F94-50A1-45DB-A849-303DD5E754E1" name="tAdjunct" isCollection="false">
+    <dmn:itemComponent id="_EAE75C42-F102-4CBD-9384-02915C2C20D8" name="full_Name" isCollection="false">
+      <dmn:typeRef>string</dmn:typeRef>
+    </dmn:itemComponent>
+    <dmn:itemComponent id="_CF59B1E1-D67F-492D-B3F0-80AAA69FBAA9" name="employee_ID" isCollection="false">
+      <dmn:typeRef>string</dmn:typeRef>
+    </dmn:itemComponent>
+    <dmn:itemComponent id="_0DA8520A-C976-4903-8765-C979DB60FA70" name="courses_Taught" isCollection="true">
+      <dmn:typeRef>tCourse</dmn:typeRef>
+    </dmn:itemComponent>
+  </dmn:itemDefinition>
+  <dmn:decision id="_45E6205A-D7EB-469E-BCD1-D662B68019C0" name="SROR Granted">
+    <dmn:extensionElements/>
+    <dmn:variable id="_BACE8988-6968-416B-A95D-A5D456D8C358" name="SROR Granted" typeRef="boolean"/>
+    <dmn:informationRequirement id="_A278800B-406B-45C7-B573-6F7390C09956">
+      <dmn:requiredDecision href="#_D4614931-BD83-424F-8345-BC268EA9433B"/>
+    </dmn:informationRequirement>
+    <dmn:informationRequirement id="_DC633887-7437-43E2-9A41-1F9D8A7FCC31">
+      <dmn:requiredDecision href="#_95A860A1-811C-4E84-801B-E71124D9C9E2"/>
+    </dmn:informationRequirement>
+    <dmn:decisionTable id="_04B7248F-EE0D-4937-8282-6B175F18DA8E" hitPolicy="UNIQUE" preferredOrientation="Rule-as-Row">
+      <dmn:input id="_5856967D-921C-4799-B9FA-BB1D487FB2B6">
+        <dmn:inputExpression id="_476DE38F-EFE2-41FD-A0F5-091D5F42F991" typeRef="number">
+          <dmn:text>Course Count</dmn:text>
+        </dmn:inputExpression>
+      </dmn:input>
+      <dmn:input id="_766213F6-947B-4362-834B-AE8721EA2E1C">
+        <dmn:inputExpression id="_9B59141A-50F7-4A3E-8191-BA44935E458F" typeRef="boolean">
+          <dmn:text>AssessmentResult</dmn:text>
+        </dmn:inputExpression>
+      </dmn:input>
+      <dmn:output id="_332D997B-C9DC-4D26-A60A-BC01BD0A420F"/>
+      <dmn:annotation name="Reason"/>
+      <dmn:rule id="_A350B786-4D9F-40B9-8450-3A83CF969DAB">
+        <dmn:inputEntry id="_1B53E3DB-3720-47E5-8F9D-1D8CE42C58CB">
+          <dmn:text>&lt; 3</dmn:text>
+        </dmn:inputEntry>
+        <dmn:inputEntry id="_FC2A1A5A-39D1-46DB-87FC-B88FC4D91EAC">
+          <dmn:text>-</dmn:text>
+        </dmn:inputEntry>
+        <dmn:outputEntry id="_D7F80341-B1C9-4513-B4FE-4670664A3160">
+          <dmn:text>false</dmn:text>
+        </dmn:outputEntry>
+        <dmn:annotationEntry>
+          <dmn:text>SROR criteria not met, course count is less than 3</dmn:text>
+        </dmn:annotationEntry>
+      </dmn:rule>
+      <dmn:rule id="_E23E9A18-B845-43AB-A8CD-A1BF0DCE7F32">
+        <dmn:inputEntry id="_C6581C6E-D204-4A54-912A-748876EFC9D6">
+          <dmn:text>&gt;= 3</dmn:text>
+        </dmn:inputEntry>
+        <dmn:inputEntry id="_1824611D-A66A-478B-80A7-66951065947F">
+          <dmn:text>false</dmn:text>
+        </dmn:inputEntry>
+        <dmn:outputEntry id="_E130875D-DBF0-4291-B6EC-C39C43211F9C">
+          <dmn:text>false</dmn:text>
+        </dmn:outputEntry>
+        <dmn:annotationEntry>
+          <dmn:text>SROR criteria not met, no record of good teaching and unsatifactory performance</dmn:text>
+        </dmn:annotationEntry>
+      </dmn:rule>
+      <dmn:rule id="_4E898520-50D2-4A91-9CD0-CD27D313A813">
+        <dmn:inputEntry id="_18685F3E-659A-42DC-B5CD-1651D925213A">
+          <dmn:text>&gt;= 3</dmn:text>
+        </dmn:inputEntry>
+        <dmn:inputEntry id="_3C9B4A6C-8AF1-4813-96D9-0A78ACDA5E37">
+          <dmn:text>true</dmn:text>
+        </dmn:inputEntry>
+        <dmn:outputEntry id="_7F0A1C9D-5F66-4C54-98D1-5EAE27EF8CA3">
+          <dmn:text>true</dmn:text>
+        </dmn:outputEntry>
+        <dmn:annotationEntry>
+          <dmn:text>SROR criteria met</dmn:text>
+        </dmn:annotationEntry>
+      </dmn:rule>
+    </dmn:decisionTable>
+  </dmn:decision>
+  <dmn:decision id="_D4614931-BD83-424F-8345-BC268EA9433B" name="AssessmentResult">
+    <dmn:description>Must have at least 3 years of Good Teaching History/Satisfactory Performance</dmn:description>
+    <dmn:extensionElements/>
+    <dmn:question>Does the Adjunct have a sufficient number of Good Teaching reports or Satisfatory Performance reports</dmn:question>
+    <dmn:allowedAnswers>Yes
+No</dmn:allowedAnswers>
+    <dmn:variable id="_23DC8338-C933-4C72-88C0-0E9629387F30" name="AssessmentResult" typeRef="boolean"/>
+    <dmn:informationRequirement id="_6A2511D7-2BAA-4BFC-8818-80F3532BC80C">
+      <dmn:requiredInput href="#_C1E06579-6E0A-4715-81F1-6B0B56CA2316"/>
+    </dmn:informationRequirement>
+    <dmn:decisionTable id="_06D3ED7A-46E7-45B8-B663-A8668A1FF320" hitPolicy="UNIQUE" preferredOrientation="Rule-as-Row">
+      <dmn:input id="_4FC7033F-A2D1-4454-94AB-DE2FDDAAB4D6">
+        <dmn:inputExpression id="_0F3EE761-48B7-4281-9F3F-9B401C51B8F8" typeRef="number">
+          <dmn:text>Assessment Count</dmn:text>
+        </dmn:inputExpression>
+      </dmn:input>
+      <dmn:output id="_76870DA0-3CAB-4067-A508-1FA90D931E02"/>
+      <dmn:annotation name="Reason"/>
+      <dmn:rule id="_1285771A-278D-45F6-8631-A90482199A8D">
+        <dmn:inputEntry id="_710F71EF-229B-40A1-BC00-86C18F48C51C">
+          <dmn:text>&lt; 3</dmn:text>
+        </dmn:inputEntry>
+        <dmn:outputEntry id="_6AB05EE6-2E73-4308-850C-F668DF35854F">
+          <dmn:text>false</dmn:text>
+        </dmn:outputEntry>
+        <dmn:annotationEntry>
+          <dmn:text>Insufficent assessments submitted in last 5 years</dmn:text>
+        </dmn:annotationEntry>
+      </dmn:rule>
+      <dmn:rule id="_843C5C65-0AF7-47AE-9430-A8286B187387">
+        <dmn:inputEntry id="_D47F58D3-8C28-4AB2-8E37-D6720738DBE8">
+          <dmn:text>&gt;= 3</dmn:text>
+        </dmn:inputEntry>
+        <dmn:outputEntry id="_A72DE075-1B86-4ACB-B1D8-C0EFED40D856">
+          <dmn:text>true</dmn:text>
+        </dmn:outputEntry>
+        <dmn:annotationEntry>
+          <dmn:text>Sufficent assessments submitted in last 5 years</dmn:text>
+        </dmn:annotationEntry>
+      </dmn:rule>
+    </dmn:decisionTable>
+  </dmn:decision>
+  <dmn:businessKnowledgeModel id="_39A15FF4-45F2-4495-9118-F26E0B4602CF" name="Academic Year">
+    <dmn:description>This is the resuable logic for calculating the Academic Year of whatever date you put in to it.</dmn:description>
+    <dmn:extensionElements/>
+    <dmn:variable id="_42398086-F306-459A-BA34-C79BD02CCD56" name="Academic Year" typeRef="number"/>
+    <dmn:encapsulatedLogic id="_5B26427A-3D9E-4479-A1CF-0B37066A5B3F" kind="FEEL">
+      <dmn:formalParameter id="_FF2DF75F-8038-43E7-BFDB-4046341CD7DD" name="Given Date" typeRef="date"/>
+      <dmn:context id="_FE086780-9131-40BD-ADAE-FA422325B5A1">
+        <dmn:contextEntry>
+          <dmn:variable id="_9B6A7454-7562-4FCB-B4F2-8ADDDA0DDB47" name="Target Year" typeRef="number"/>
+          <dmn:literalExpression id="_193C9BAF-1DF2-49AC-AC74-13790997CBC1">
+            <dmn:text>Given Date.year</dmn:text>
+          </dmn:literalExpression>
+        </dmn:contextEntry>
+        <dmn:contextEntry>
+          <dmn:variable id="_336C3329-88C6-4515-9E05-FEA00C5B4B81" name="Target Month" typeRef="number"/>
+          <dmn:literalExpression id="_E7D75659-9D90-49F8-BB3E-A9B70960090A">
+            <dmn:text>Given Date.month</dmn:text>
+          </dmn:literalExpression>
+        </dmn:contextEntry>
+        <dmn:contextEntry>
+          <dmn:variable id="_4EDCD6C7-9B9F-495D-96E4-F7DDE06A06D9" name="First Half of Year" typeRef="number"/>
+          <dmn:literalExpression id="_D8634B87-6F38-4171-B311-714393013897">
+            <dmn:text>[7..12]</dmn:text>
+          </dmn:literalExpression>
+        </dmn:contextEntry>
+        <dmn:contextEntry>
+          <dmn:literalExpression id="_965E9362-C45C-4BB6-80C9-EDE7819036CF">
+            <dmn:text>if Target Month in First Half of Year then Target Year else Target Year -1 </dmn:text>
+          </dmn:literalExpression>
+        </dmn:contextEntry>
+      </dmn:context>
+    </dmn:encapsulatedLogic>
+  </dmn:businessKnowledgeModel>
+  <dmn:inputData id="_A6CD7C0E-D0BD-40A7-BC0E-A3D7F19A02C8" name="Term Adjunct">
+    <dmn:description>This fact holds all the pieces of information that is directly related to the Adjunct</dmn:description>
+    <dmn:extensionElements/>
+    <dmn:variable id="_1106E679-F7EC-46A7-AEF5-DCFEBE236971" name="Term Adjunct" typeRef="tAdjunct"/>
+  </dmn:inputData>
+  <dmn:inputData id="_BD02E371-96E6-4D24-B90F-028F292E3309" name="Proposed Course">
+    <dmn:extensionElements/>
+    <dmn:variable id="_A13A7D24-7ADF-4BB1-9575-2D3C67CE32F5" name="Proposed Course" typeRef="tCourse"/>
+  </dmn:inputData>
+  <dmn:inputData id="_C1E06579-6E0A-4715-81F1-6B0B56CA2316" name="Assessment Count">
+    <dmn:description>This is a number that is gathered from external systems.</dmn:description>
+    <dmn:extensionElements/>
+    <dmn:variable id="_6E0CA28A-9816-4674-98D7-1FF1CECD18F0" name="Assessment Count" typeRef="number"/>
+  </dmn:inputData>
+  <dmn:decision id="_95A860A1-811C-4E84-801B-E71124D9C9E2" name="Course Count">
+    <dmn:description>The goal of this decision is to count the number of qualified courses that are used to make the final SROR</dmn:description>
+    <dmn:extensionElements/>
+    <dmn:question>From the list of courses that the Adjunct has taught,  how many qualify for consideration in determining a SROR</dmn:question>
+    <dmn:variable id="_17F2481C-9BE2-4FF9-9E9F-B6EB6F0BA494" name="Course Count" typeRef="number"/>
+    <dmn:informationRequirement id="_1CD3EF27-C629-48F1-8298-0B03A53F406A">
+      <dmn:requiredInput href="#_A6CD7C0E-D0BD-40A7-BC0E-A3D7F19A02C8"/>
+    </dmn:informationRequirement>
+    <dmn:informationRequirement id="_CBD7F2F5-9E7E-4563-8883-556D1BB3CD3B">
+      <dmn:requiredInput href="#_95EA900F-4C7A-452B-849F-39DB17768DC8"/>
+    </dmn:informationRequirement>
+    <dmn:informationRequirement id="_95993B92-0A1D-42CE-B439-2720550B7618">
+      <dmn:requiredInput href="#_BD02E371-96E6-4D24-B90F-028F292E3309"/>
+    </dmn:informationRequirement>
+    <dmn:knowledgeRequirement id="_8AD66ABB-7944-47AB-8577-CFAACBB143AC">
+      <dmn:requiredKnowledge href="#_39A15FF4-45F2-4495-9118-F26E0B4602CF"/>
+    </dmn:knowledgeRequirement>
+    <dmn:context id="_28FF105C-A1C6-4352-9119-A53B5FA5FD79">
+      <dmn:contextEntry>
+        <dmn:variable id="_51F2A864-2F66-4853-A95B-91C9278E4FCE" name="All Courses" typeRef="tCourses"/>
+        <dmn:literalExpression id="_70B812D3-436D-4E19-9A76-D98D98969360">
+          <dmn:text>append(Term Adjunct.courses_Taught,Proposed Course)</dmn:text>
+        </dmn:literalExpression>
+      </dmn:contextEntry>
+      <dmn:contextEntry>
+        <dmn:variable id="_0CD633B6-E0B5-4957-B5DB-7AAEA75F09A3" name="Effective Course Year" typeRef="number">
+          <dmn:description>This is the Academic year for the date that the Hiring Officer wants to use.  Most times it will equate to the STRM of the course being offered.</dmn:description>
+        </dmn:variable>
+        <dmn:literalExpression id="_AB90F345-A735-4831-B71B-D2CD839D57CE">
+          <dmn:text>Academic Year(Hiring Date)</dmn:text>
+        </dmn:literalExpression>
+      </dmn:contextEntry>
+      <dmn:contextEntry>
+        <dmn:variable id="_A091FDB9-76AA-4E28-8CB3-B9044363E41D" name="Courses within Range" typeRef="tCourses"/>
+        <dmn:literalExpression id="_01179816-8988-4E20-AB0E-3727970E2F06">
+          <dmn:text>All Courses [Academic_year_taught &lt;= Effective Course Year and Academic_year_taught &gt; (Effective Course Year -4)]</dmn:text>
+        </dmn:literalExpression>
+      </dmn:contextEntry>
+      <dmn:contextEntry>
+        <dmn:variable id="_EBA13011-C6D3-4A12-8963-D7E74AE42298" name="Courses Matching Proposed" typeRef="tCourses">
+          <dmn:description>This includes the Proposed Course</dmn:description>
+        </dmn:variable>
+        <dmn:literalExpression id="_A08A3681-1F2B-4766-9BDE-D9A298740C77">
+          <dmn:text>Courses within Range[Course_code = Proposed Course.Course_code and Delivery_format = Proposed Course.Delivery_format and Units = Proposed Course.Units and Responsibility_percentage = 100]</dmn:text>
+        </dmn:literalExpression>
+      </dmn:contextEntry>
+      <dmn:contextEntry>
+        <dmn:literalExpression id="_EAE3D521-044F-4EEE-92F1-60D8D34F7D99">
+          <dmn:text>count(Courses Matching Proposed)</dmn:text>
+        </dmn:literalExpression>
+      </dmn:contextEntry>
+    </dmn:context>
+  </dmn:decision>
+  <dmn:inputData id="_95EA900F-4C7A-452B-849F-39DB17768DC8" name="Hiring Date">
+    <dmn:extensionElements/>
+    <dmn:variable id="_99BA83F4-8E44-4A32-ADCB-53D5B787B679" name="Hiring Date" typeRef="date"/>
+  </dmn:inputData>
+  <dmndi:DMNDI>
+    <dmndi:DMNDiagram id="_4404AB45-88C0-467C-9432-A061CADDB698" name="DRG">
+      <di:extension>
+        <kie:ComponentsWidthsExtension>
+          <kie:ComponentWidths dmnElementRef="_04B7248F-EE0D-4937-8282-6B175F18DA8E">
+            <kie:width>50</kie:width>
+            <kie:width>100</kie:width>
+            <kie:width>385</kie:width>
+            <kie:width>100</kie:width>
+            <kie:width>448</kie:width>
+          </kie:ComponentWidths>
+          <kie:ComponentWidths dmnElementRef="_06D3ED7A-46E7-45B8-B663-A8668A1FF320">
+            <kie:width>50</kie:width>
+            <kie:width>189</kie:width>
+            <kie:width>192</kie:width>
+            <kie:width>426</kie:width>
+          </kie:ComponentWidths>
+          <kie:ComponentWidths dmnElementRef="_FE086780-9131-40BD-ADAE-FA422325B5A1">
+            <kie:width>50</kie:width>
+            <kie:width>120</kie:width>
+            <kie:width>848</kie:width>
+          </kie:ComponentWidths>
+          <kie:ComponentWidths dmnElementRef="_193C9BAF-1DF2-49AC-AC74-13790997CBC1">
+            <kie:width>848</kie:width>
+          </kie:ComponentWidths>
+          <kie:ComponentWidths dmnElementRef="_E7D75659-9D90-49F8-BB3E-A9B70960090A">
+            <kie:width>848</kie:width>
+          </kie:ComponentWidths>
+          <kie:ComponentWidths dmnElementRef="_D8634B87-6F38-4171-B311-714393013897">
+            <kie:width>848</kie:width>
+          </kie:ComponentWidths>
+          <kie:ComponentWidths dmnElementRef="_965E9362-C45C-4BB6-80C9-EDE7819036CF">
+            <kie:width>848</kie:width>
+          </kie:ComponentWidths>
+          <kie:ComponentWidths dmnElementRef="_5B26427A-3D9E-4479-A1CF-0B37066A5B3F">
+            <kie:width>50</kie:width>
+            <kie:width>1038</kie:width>
+          </kie:ComponentWidths>
+          <kie:ComponentWidths dmnElementRef="_28FF105C-A1C6-4352-9119-A53B5FA5FD79">
+            <kie:width>50</kie:width>
+            <kie:width>240</kie:width>
+            <kie:width>1523</kie:width>
+          </kie:ComponentWidths>
+          <kie:ComponentWidths dmnElementRef="_70B812D3-436D-4E19-9A76-D98D98969360">
+            <kie:width>1523</kie:width>
+          </kie:ComponentWidths>
+          <kie:ComponentWidths dmnElementRef="_AB90F345-A735-4831-B71B-D2CD839D57CE">
+            <kie:width>1523</kie:width>
+          </kie:ComponentWidths>
+          <kie:ComponentWidths dmnElementRef="_01179816-8988-4E20-AB0E-3727970E2F06">
+            <kie:width>1523</kie:width>
+          </kie:ComponentWidths>
+          <kie:ComponentWidths dmnElementRef="_A08A3681-1F2B-4766-9BDE-D9A298740C77">
+            <kie:width>1523</kie:width>
+          </kie:ComponentWidths>
+          <kie:ComponentWidths dmnElementRef="_EAE3D521-044F-4EEE-92F1-60D8D34F7D99">
+            <kie:width>1523</kie:width>
+          </kie:ComponentWidths>
+        </kie:ComponentsWidthsExtension>
+      </di:extension>
+      <dmndi:DMNShape id="dmnshape-drg-_45E6205A-D7EB-469E-BCD1-D662B68019C0" dmnElementRef="_45E6205A-D7EB-469E-BCD1-D662B68019C0" isCollapsed="false">
+        <dmndi:DMNStyle>
+          <dmndi:FillColor red="255" green="255" blue="255"/>
+          <dmndi:StrokeColor red="0" green="0" blue="0"/>
+          <dmndi:FontColor red="0" green="0" blue="0"/>
+        </dmndi:DMNStyle>
+        <dc:Bounds x="514" y="102" width="100" height="50"/>
+        <dmndi:DMNLabel/>
+      </dmndi:DMNShape>
+      <dmndi:DMNShape id="dmnshape-drg-_D4614931-BD83-424F-8345-BC268EA9433B" dmnElementRef="_D4614931-BD83-424F-8345-BC268EA9433B" isCollapsed="false">
+        <dmndi:DMNStyle>
+          <dmndi:FillColor red="255" green="255" blue="255"/>
+          <dmndi:StrokeColor red="0" green="0" blue="0"/>
+          <dmndi:FontColor red="0" green="0" blue="0"/>
+        </dmndi:DMNStyle>
+        <dc:Bounds x="585" y="229" width="136" height="66"/>
+        <dmndi:DMNLabel/>
+      </dmndi:DMNShape>
+      <dmndi:DMNShape id="dmnshape-drg-_39A15FF4-45F2-4495-9118-F26E0B4602CF" dmnElementRef="_39A15FF4-45F2-4495-9118-F26E0B4602CF" isCollapsed="false">
+        <dmndi:DMNStyle>
+          <dmndi:FillColor red="255" green="255" blue="255"/>
+          <dmndi:StrokeColor red="0" green="0" blue="0"/>
+          <dmndi:FontColor red="0" green="0" blue="0"/>
+        </dmndi:DMNStyle>
+        <dc:Bounds x="423.29906542056074" y="413" width="100" height="50"/>
+        <dmndi:DMNLabel/>
+      </dmndi:DMNShape>
+      <dmndi:DMNShape id="dmnshape-drg-_A6CD7C0E-D0BD-40A7-BC0E-A3D7F19A02C8" dmnElementRef="_A6CD7C0E-D0BD-40A7-BC0E-A3D7F19A02C8" isCollapsed="false">
+        <dmndi:DMNStyle>
+          <dmndi:FillColor red="255" green="255" blue="255"/>
+          <dmndi:StrokeColor red="0" green="0" blue="0"/>
+          <dmndi:FontColor red="0" green="0" blue="0"/>
+        </dmndi:DMNStyle>
+        <dc:Bounds x="142" y="243.34210526315792" width="100" height="50"/>
+        <dmndi:DMNLabel/>
+      </dmndi:DMNShape>
+      <dmndi:DMNShape id="dmnshape-drg-_BD02E371-96E6-4D24-B90F-028F292E3309" dmnElementRef="_BD02E371-96E6-4D24-B90F-028F292E3309" isCollapsed="false">
+        <dmndi:DMNStyle>
+          <dmndi:FillColor red="255" green="255" blue="255"/>
+          <dmndi:StrokeColor red="0" green="0" blue="0"/>
+          <dmndi:FontColor red="0" green="0" blue="0"/>
+        </dmndi:DMNStyle>
+        <dc:Bounds x="168" y="372" width="100" height="50"/>
+        <dmndi:DMNLabel/>
+      </dmndi:DMNShape>
+      <dmndi:DMNShape id="dmnshape-drg-_C1E06579-6E0A-4715-81F1-6B0B56CA2316" dmnElementRef="_C1E06579-6E0A-4715-81F1-6B0B56CA2316" isCollapsed="false">
+        <dmndi:DMNStyle>
+          <dmndi:FillColor red="255" green="255" blue="255"/>
+          <dmndi:StrokeColor red="0" green="0" blue="0"/>
+          <dmndi:FontColor red="0" green="0" blue="0"/>
+        </dmndi:DMNStyle>
+        <dc:Bounds x="602" y="413" width="100" height="50"/>
+        <dmndi:DMNLabel/>
+      </dmndi:DMNShape>
+      <dmndi:DMNShape id="dmnshape-drg-_95A860A1-811C-4E84-801B-E71124D9C9E2" dmnElementRef="_95A860A1-811C-4E84-801B-E71124D9C9E2" isCollapsed="false">
+        <dmndi:DMNStyle>
+          <dmndi:FillColor red="255" green="255" blue="255"/>
+          <dmndi:StrokeColor red="0" green="0" blue="0"/>
+          <dmndi:FontColor red="0" green="0" blue="0"/>
+        </dmndi:DMNStyle>
+        <dc:Bounds x="398" y="245" width="100" height="50"/>
+        <dmndi:DMNLabel/>
+      </dmndi:DMNShape>
+      <dmndi:DMNShape id="dmnshape-drg-_95EA900F-4C7A-452B-849F-39DB17768DC8" dmnElementRef="_95EA900F-4C7A-452B-849F-39DB17768DC8" isCollapsed="false">
+        <dmndi:DMNStyle>
+          <dmndi:FillColor red="255" green="255" blue="255"/>
+          <dmndi:StrokeColor red="0" green="0" blue="0"/>
+          <dmndi:FontColor red="0" green="0" blue="0"/>
+        </dmndi:DMNStyle>
+        <dc:Bounds x="244.59813084112147" y="445" width="100" height="50"/>
+        <dmndi:DMNLabel/>
+      </dmndi:DMNShape>
+      <dmndi:DMNEdge id="dmnedge-drg-_A278800B-406B-45C7-B573-6F7390C09956" dmnElementRef="_A278800B-406B-45C7-B573-6F7390C09956">
+        <di:waypoint x="653" y="262"/>
+        <di:waypoint x="564" y="152"/>
+      </dmndi:DMNEdge>
+      <dmndi:DMNEdge id="dmnedge-drg-_DC633887-7437-43E2-9A41-1F9D8A7FCC31-AUTO-TARGET" dmnElementRef="_DC633887-7437-43E2-9A41-1F9D8A7FCC31">
+        <di:waypoint x="448" y="270"/>
+        <di:waypoint x="564" y="152"/>
+      </dmndi:DMNEdge>
+      <dmndi:DMNEdge id="dmnedge-drg-_6A2511D7-2BAA-4BFC-8818-80F3532BC80C" dmnElementRef="_6A2511D7-2BAA-4BFC-8818-80F3532BC80C">
+        <di:waypoint x="652" y="438"/>
+        <di:waypoint x="654" y="358"/>
+        <di:waypoint x="653" y="317"/>
+        <di:waypoint x="653" y="295"/>
+      </dmndi:DMNEdge>
+      <dmndi:DMNEdge id="dmnedge-drg-_1CD3EF27-C629-48F1-8298-0B03A53F406A-AUTO-TARGET" dmnElementRef="_1CD3EF27-C629-48F1-8298-0B03A53F406A">
+        <di:waypoint x="192" y="268.3421052631579"/>
+        <di:waypoint x="398" y="270"/>
+      </dmndi:DMNEdge>
+      <dmndi:DMNEdge id="dmnedge-drg-_CBD7F2F5-9E7E-4563-8883-556D1BB3CD3B-AUTO-TARGET" dmnElementRef="_CBD7F2F5-9E7E-4563-8883-556D1BB3CD3B">
+        <di:waypoint x="294.5981308411215" y="470"/>
+        <di:waypoint x="448" y="295"/>
+      </dmndi:DMNEdge>
+      <dmndi:DMNEdge id="dmnedge-drg-_95993B92-0A1D-42CE-B439-2720550B7618" dmnElementRef="_95993B92-0A1D-42CE-B439-2720550B7618">
+        <di:waypoint x="218" y="397"/>
+        <di:waypoint x="398" y="270"/>
+      </dmndi:DMNEdge>
+      <dmndi:DMNEdge id="dmnedge-drg-_8AD66ABB-7944-47AB-8577-CFAACBB143AC-AUTO-TARGET" dmnElementRef="_8AD66ABB-7944-47AB-8577-CFAACBB143AC">
+        <di:waypoint x="473.29906542056074" y="438"/>
+        <di:waypoint x="448" y="295"/>
+      </dmndi:DMNEdge>
+    </dmndi:DMNDiagram>
+  </dmndi:DMNDI>
+</dmn:definitions>
